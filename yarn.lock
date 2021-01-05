@@ -853,10 +853,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@fontsource/playfair-display@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@fontsource/playfair-display/-/playfair-display-4.0.1.tgz#9839eb31c176bdceadd0b8f7106e7e7c3127b708"
-  integrity sha512-mE7xTQhKET3+gVV6uW0ZcqktNHgrHxDxGqWKotDMUbhkS6YAc/N8WGwmLu7l7t323P1VW5zkQrG5DyuCtrFJlg==
+"@fontsource/playfair-display@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/playfair-display/-/playfair-display-4.1.0.tgz#090a070bb69270b879a0faaea4da28a719c1e1cd"
+  integrity sha512-0SW09Lpg7ThnUvhgkbKuEJUv7IMP28fpQdZnKmMLrtym+C1IfFHCAErrxJ9MWOnVjs1PJfziMgJupuLaQUWBLA==
 
 "@fullhuman/postcss-purgecss@^2.1.2":
   version "2.3.0"
