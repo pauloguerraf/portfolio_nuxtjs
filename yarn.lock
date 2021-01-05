@@ -4652,10 +4652,10 @@ follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
   integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
-fontsource-arvo@^3.1.5:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/fontsource-arvo/-/fontsource-arvo-3.1.5.tgz#31db5de9632d460a945df06b032a16fefafe6326"
-  integrity sha512-//qWNZWDmR+JRdbQvFMaD8EH4QUYVVTwdeD6CtaLv9puglFwrCtwC9877LYO2InGQaJNZAPwH9BpesAxvO4tAg==
+fontsource-arvo@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/fontsource-arvo/-/fontsource-arvo-4.0.0.tgz#e56b829d6fb9ffee5ca07498d6b921afc04df6e5"
+  integrity sha512-PKhw9JJoqSVN20ADx+24aowGPBRjvxrKlOLLE9GDlwvFH0BV/noDlBYYnrRI+BbEuJmr3SdN4ZSEOn9tBk0e5w==
 
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
