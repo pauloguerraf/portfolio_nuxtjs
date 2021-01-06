@@ -1,5 +1,5 @@
 <template>
- <nuxt-link to="/"><div class="logo font-bold"><span class="logo-txt">pauloguerraf.com</span></div></nuxt-link>
+ <nuxt-link to="/"><div class="logo font-bold text-5xl"><span class="logo-txt">pauloguerraf.com</span></div></nuxt-link>
 </template>
 <script>
 import anime from 'animejs'
@@ -78,7 +78,7 @@ export default {
   -webkit-text-fill-color:transparent;
 }
 .logo-txt:hover{
-  -webkit-text-stroke:1px white;
+  -webkit-text-stroke:0px white;
   -webkit-text-fill-color:white;
 }
 </style>

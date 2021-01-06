@@ -1,5 +1,5 @@
 <template>
-  <div id="navigation" class="flex flex-col justify-center items-end text-white">
+  <div id="navigation" class="flex flex-col justify-center items-end text-gray-400">
     <NuxtLink class="menu-item px-2 py-2 font-menu text-5xl" to="/about">About</NuxtLink>
     <NuxtLink class="menu-item px-2 py-2 font-menu text-5xl" to="/work">Work</NuxtLink>
     <NuxtLink class="menu-item px-2 py-2 font-menu text-5xl" to="/experiments">Experiments</NuxtLink>
@@ -31,13 +31,13 @@ export default {
   content: '';
   top: 55%;
   width: 3.5rem;
-  height: 2px;
+  height: 4px;
   background: #d8ff00;
   position: absolute;
   right: calc(100% + 2rem);
   opacity: 0;
   pointer-events: none;
-  transition: opacity 500ms;
+  transition: opacity 300ms;
 }
 .menu-item:hover{
   color: #d8ff00;
