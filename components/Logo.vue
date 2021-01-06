@@ -1,5 +1,5 @@
 <template>
- <NuxtLink to="/"><div class="logo text-white font-bold">pauloguerraf.com</div></NuxtLink>
+ <nuxt-link to="/"><div class="logo font-bold"><span class="logo-txt">pauloguerraf.com</span></div></nuxt-link>
 </template>
 <script>
 import anime from 'animejs'
@@ -34,8 +34,9 @@ export default {
     anime({
         targets:'.logo',
         opacity: ['0', '1'],
-        translateX: ['-75%', '0'],
+        translateY: ['-50%', '0'],
         duration: 1000,
+        delay: 200,
         easing: 'easeOutCubic'
       })
     }
@@ -71,5 +72,13 @@ export default {
   80% { content: var(--char-8); }
   90% { content: var(--char-9); }
   100% { content: var(--char-0); }
+}
+.logo-txt{
+  -webkit-text-stroke:1px white;
+  -webkit-text-fill-color:transparent;
+}
+.logo-txt:hover{
+  -webkit-text-stroke:1px white;
+  -webkit-text-fill-color:white;
 }
 </style>

@@ -14,8 +14,9 @@ export default {
      anime({
         targets:'#navigation',
         opacity: ['0', '1'],
-        translateY: ['75%', '0'],
+        translateY: ['50%', '0'],
         duration: 1000,
+        delay: 200,
         easing: 'easeOutCubic'
       })
   }

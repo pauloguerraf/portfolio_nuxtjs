@@ -1,8 +1,8 @@
 <template>
   <div class="h-screen">
-    <div  class="absolute h-full xl:p-10 p-6 z-10 xl:w-1/3 w-full">
+    <div  class="absolute h-full xl:p-10 p-6 z-10 xl:w-2/5 w-full">
       <div id="left" class="h-full p-10 flex flex-col justify-around">
-        <Logo class="text-4xl text-right" />
+        <Logo class="text-4xl text-left" />
         <Navigation/>
         <div class="flex justify-end">
           <a href="https:github.com/pauloguerraf"><img src="/icons/github.svg" alt="https:github.com/pauloguerraf"></a>
@@ -20,7 +20,19 @@
 </template>
 
 <script>
-export default {}
+import anime from 'animejs'
+
+export default {
+   mounted(){
+     anime({
+        targets:'#left',
+        opacity: ['0', '1'],
+        duration: 1000,
+        easing: 'easeOutCubic'
+      })
+  }
+
+}
 </script>
 
 <style>
