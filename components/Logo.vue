@@ -1,41 +1,40 @@
 <template>
- <NuxtLink to="/"><div class="logo font-bold">pauloguerraf.com</div></NuxtLink>
+ <NuxtLink to="/"><div class="logo text-white font-bold">pauloguerraf.com</div></NuxtLink>
 </template>
 <script>
 import anime from 'animejs'
-import charming from 'charming'
+//import charming from 'charming'
 
 export default {
   data(){
     return{
-      element:"",
-      RESULTS:"",
-      GLITCH_CHARS:""
+      // element:"",
+      // RESULTS:"",
+      // GLITCH_CHARS:""
     }
   },
   mounted(){
-    this.element = document.querySelector('.logo');
-    charming(this.element);
-    this.RESULTS = this.element.children;
-    this.GLITCH_CHARS = '`¡™£¢∞§¶•ªº–≠åß∂ƒ©˙∆˚¬…æ≈ç√∫˜µ≤≥÷/?░▒▓<>/'.split('')
-    for (let r = 0; r < this.RESULTS.length; r++) {
-      // const CHARS = this.RESULTS[r].chars
-      // for (let c = 0; c < CHARS.length; c++) {
-        const char = this.RESULTS[r].innerHTML;
-        this.RESULTS[r].setAttribute("data-char", char);
-        for (let g = 0; g < 10; g++) {
-          this.RESULTS[r].style.setProperty(
-            `--char-${g}`,
-            `"${this.GLITCH_CHARS[Math.floor(Math.random() * this.GLITCH_CHARS.length)]}"`
-          )
-        }
-      // }
-    }
-
+    //this.element = document.querySelector('.logo');
+    // charming(this.element);
+    // this.RESULTS = this.element.children;
+    // this.GLITCH_CHARS = '`¡™£¢∞§¶•ªº–≠åß∂ƒ©˙∆˚¬…æ≈ç√∫˜µ≤≥÷/?░▒▓<>/'.split('')
+    // for (let r = 0; r < this.RESULTS.length; r++) {
+    //   // const CHARS = this.RESULTS[r].chars
+    //   // for (let c = 0; c < CHARS.length; c++) {
+    //     const char = this.RESULTS[r].innerHTML;
+    //     this.RESULTS[r].setAttribute("data-char", char);
+    //     for (let g = 0; g < 10; g++) {
+    //       this.RESULTS[r].style.setProperty(
+    //         `--char-${g}`,
+    //         `"${this.GLITCH_CHARS[Math.floor(Math.random() * this.GLITCH_CHARS.length)]}"`
+    //       )
+    //     }
+    //   // }
+    // }
     anime({
         targets:'.logo',
         opacity: ['0', '1'],
-        translateY: ['-50%', '0'],
+        translateX: ['-75%', '0'],
         duration: 1000,
         easing: 'easeOutCubic'
       })

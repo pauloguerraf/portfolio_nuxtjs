@@ -1,6 +1,6 @@
 <template>
   <div>
-      <div class="text-xl p-2">blog</div>
+      <div class="text-xl p-2">experiments</div>
   </div>
 </template>
 

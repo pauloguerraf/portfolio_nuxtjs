@@ -22,6 +22,6 @@ export default {
 </script>
 <style>
 video {
-  filter: brightness(0.5);
+  filter: brightness(0.5) grayscale(0.7);
 }
 </style>

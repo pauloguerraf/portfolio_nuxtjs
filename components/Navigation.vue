@@ -1,36 +1,46 @@
 <template>
-  <div class="flex flex-col justify-center items-end text-white text-bold">
+  <div id="navigation" class="flex flex-col justify-center items-end text-white">
     <NuxtLink class="menu-item px-2 py-2 font-menu text-5xl" to="/about">About</NuxtLink>
     <NuxtLink class="menu-item px-2 py-2 font-menu text-5xl" to="/work">Work</NuxtLink>
-    <NuxtLink class="menu-item px-2 py-2 font-menu text-5xl" to="/blog">Blog</NuxtLink>
+    <NuxtLink class="menu-item px-2 py-2 font-menu text-5xl" to="/experiments">Experiments</NuxtLink>
   </div>
 </template>
 
 <script>
-export default {
+import anime from 'animejs'
 
+export default {
+  mounted(){
+     anime({
+        targets:'#navigation',
+        opacity: ['0', '1'],
+        translateY: ['75%', '0'],
+        duration: 1000,
+        easing: 'easeOutCubic'
+      })
+  }
 }
 </script>
 
 <style>
 .menu-item{
-  transition-duration: 200ms;
+  transition-duration: 500ms;
 }
 .menu-item::before {
   content: '';
   top: 55%;
   width: 3.5rem;
-  height: 1px;
-  background: #fff;
+  height: 2px;
+  background: #d8ff00;
   position: absolute;
   right: calc(100% + 2rem);
   opacity: 0;
   pointer-events: none;
+  transition: opacity 500ms;
 }
 .menu-item:hover{
-  color: #fff;
+  color: #d8ff00;
   font-style: italic;
-  font-weight: bold;
   transform: translateX(1.5rem);
 }
 .menu-item:hover::before{
