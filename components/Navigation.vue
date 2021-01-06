@@ -30,7 +30,7 @@ export default {
 .menu-item::before {
   content: '';
   top: 55%;
-  width: 3.5rem;
+  width: 2.5rem;
   height: 4px;
   background: #d8ff00;
   position: absolute;
