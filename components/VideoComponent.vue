@@ -1,5 +1,5 @@
 <template>
-  <video :src="source" crossorigin="anonymous" :autoplay="play" loop="true" muted="muted"></video>
+  <video :src="source" crossorigin="anonymous" :autoplay="play" loop="true" muted="muted" playsinline></video>
 </template>
 <script>
 export default {

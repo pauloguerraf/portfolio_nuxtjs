@@ -1,5 +1,5 @@
 <template>
- <nuxt-link to="/"><div class="logo font-bold text-5xl"><span class="logo-txt">pauloguerraf.com</span></div></nuxt-link>
+ <nuxt-link to="/"><div class="logo font-bold md:text-5xl text-4xl"><span class="logo-txt">pauloguerraf.com</span></div></nuxt-link>
 </template>
 <script>
 import anime from 'animejs'
