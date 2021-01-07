@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div id="about" class="fixed font-bold h-10" style="opacity:0.15; font-size:20rem; z-index:-1;">
+  <div id="about" class="fixed font-bold h-10">
   ABOUT</div>
   <LogoPages class="fixed top-0 transform scale-50"/>
   <div class="md:text-4xl text-3xl lg:px-40 md:px-36 px-20">
@@ -55,6 +55,17 @@ import Social from '~/components/Social.vue'
 }
 #about{
   color:  #d2f700;
+  opacity:0.15;
+  font-size:10rem;
+  z-index:-1;
+}
+@media (min-width: 768px) {
+#about{
+  color:  #d2f700;
+  opacity:0.15;
+  font-size:20rem;
+  z-index:-1;
+}
 }
 #history div{
   border-color: #0000ff;
