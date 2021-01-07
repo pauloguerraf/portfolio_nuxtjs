@@ -1,8 +1,8 @@
 <template>
   <div id="navigation" class="flex flex-col justify-center items-end">
-    <NuxtLink class="menu-item md:p-2 p-1 font-menu" to="/about">About</NuxtLink>
-    <NuxtLink class="menu-item md:p-2 p-1 font-menu" to="/work">Work</NuxtLink>
-    <NuxtLink class="menu-item md:p-2 p-1 font-menu" to="/experiments">Experiments</NuxtLink>
+    <nuxt-link class="menu-item md:p-2 p-1 font-menu" to="/about">About</nuxt-link>
+    <nuxt-link class="menu-item md:p-2 p-1 font-menu" to="/work">Work</nuxt-link>
+    <nuxt-link class="menu-item md:p-2 p-1 font-menu" to="/experiments">Experiments</nuxt-link>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
      anime({
         targets:'#navigation',
         opacity: ['0', '1'],
-        translateY: ['50%', '0'],
+        translateY: ['-50%', '0'],
         duration: 1000,
         delay: 200,
         easing: 'easeOutCubic'
