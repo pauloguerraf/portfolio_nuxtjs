@@ -56,7 +56,7 @@ import Social from '~/components/Social.vue'
 #about{
   color:  #d2f700;
   opacity:0.15;
-  font-size:10rem;
+  font-size:8rem;
   z-index:-1;
 }
 @media (min-width: 768px) {
