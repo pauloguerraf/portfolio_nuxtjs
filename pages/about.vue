@@ -17,7 +17,7 @@
           <img class="rounded-full sm:w-3/4 lg:w-full lg:flex" src="profile.jpg"/>
       </div>
       <div class="lg:w-4/6 w-full md:py-16 py-8">
-      Hello, my name is Paulo. I am a <strong>creative technologist</strong> passionate about exploring <strong>cutting edge</strong> technology-enabled <strong>interactions</strong> and connecting people through <strong>meaningful</strong> and innovative <strong>experiences</strong>.
+      Hi, my name is Paulo. I am a <strong>creative technologist</strong> passionate about exploring <strong>cutting edge</strong> technology-enabled <strong>interactions</strong> and connecting people through <strong>meaningful</strong> and innovative <strong>experiences</strong>.
       </div>
 
     </div>
