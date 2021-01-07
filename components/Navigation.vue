@@ -1,8 +1,8 @@
 <template>
-  <div id="navigation" class="flex flex-col justify-center items-end text-gray-400">
-    <NuxtLink class="menu-item px-2 py-2 font-menu text-5xl" to="/about">About</NuxtLink>
-    <NuxtLink class="menu-item px-2 py-2 font-menu text-5xl" to="/work">Work</NuxtLink>
-    <NuxtLink class="menu-item px-2 py-2 font-menu text-5xl" to="/experiments">Experiments</NuxtLink>
+  <div id="navigation" class="flex flex-col justify-center items-end">
+    <NuxtLink class="menu-item md:p-2 p-1 font-menu" to="/about">About</NuxtLink>
+    <NuxtLink class="menu-item md:p-2 p-1 font-menu" to="/work">Work</NuxtLink>
+    <NuxtLink class="menu-item md:p-2 p-1 font-menu" to="/experiments">Experiments</NuxtLink>
   </div>
 </template>
 
@@ -25,14 +25,16 @@ export default {
 
 <style>
 .menu-item{
+  transition: transform;
   transition-duration: 500ms;
+  font-size: clamp(100%, 1rem + 2vw, 80vh) !important;
 }
 .menu-item::before {
   content: '';
   top: 55%;
   width: 2.5rem;
   height: 4px;
-  background: #d8ff00;
+  background: #d2f700;
   position: absolute;
   right: calc(100% + 2rem);
   opacity: 0;
@@ -40,7 +42,7 @@ export default {
   transition: opacity 300ms;
 }
 .menu-item:hover{
-  color: #d8ff00;
+  color: #d2f700;
   font-style: italic;
   transform: translateX(1.5rem);
 }
@@ -54,5 +56,8 @@ export default {
   left: -5.5rem;
   right: 0;
   height: 100%;
+}
+#navigation{
+  color: #0000ff;
 }
 </style>
