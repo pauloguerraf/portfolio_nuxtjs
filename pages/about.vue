@@ -1,8 +1,8 @@
 <template>
 <div>
-  <div id="about" class="fixed font-bold h-10">
+  <div id="about" class="fixed font-bold h-10 text-center w-full">
   ABOUT</div>
-  <LogoPages class="fixed top-0 transform scale-50"/>
+  <LogoPages class="fixed"/>
   <div class="md:text-4xl text-3xl lg:px-40 md:px-36 px-20">
     <div class="flex justify-center py-2 text-xl">
       <div>
@@ -13,8 +13,8 @@
     </div>
 
     <div id="intro" class="w-full py-12 lg:flex md:px-6 items-center">
-       <div class="lg:2/6 w-full lg:p-10 sm:order-2 flex justify-center">
-          <img class="rounded-full w-3/4 lg:flex" src="profile.jpg"/>
+       <div class="lg:w-2/6 w-full sm:order-2 flex justify-center lg:pl-10">
+          <img class="rounded-full sm:w-3/4 lg:w-full lg:flex" src="profile.jpg"/>
       </div>
       <div class="lg:w-4/6 w-full md:py-16 py-8">
       Hello, my name is Paulo. I am a <strong>creative technologist</strong> passionate about exploring <strong>cutting edge</strong> technology-enabled <strong>interactions</strong> and connecting people through <strong>meaningful</strong> and innovative <strong>experiences</strong>.
@@ -55,19 +55,18 @@ import Social from '~/components/Social.vue'
 }
 #about{
   color:  #d2f700;
-  opacity:0.15;
-  font-size:8rem;
+  opacity:0.2;
   z-index:-1;
-}
-@media (min-width: 768px) {
-#about{
-  color:  #d2f700;
-  opacity:0.15;
-  font-size:20rem;
-  z-index:-1;
-}
-}
+  font-size: 25vw !important;
+ }
 #history div{
   border-color: #0000ff;
+}
+#intro img{
+  transition: all 0.3s;
+  filter: grayscale(1);
+}
+#intro img:hover{
+  filter: none;
 }
 </style>
