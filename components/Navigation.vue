@@ -39,7 +39,6 @@ export default {
   right: calc(100% + 2rem);
   opacity: 0;
   pointer-events: none;
-  transition: opacity 300ms;
 }
 .menu-item:hover{
   color: #d2f700;
