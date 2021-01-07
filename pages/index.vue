@@ -4,7 +4,7 @@
       <div id="left" class="flex h-full justify-between md:px-6 px-3 md:py-5 py-2 ">
         <div class="flex flex-col justify-end"><Logo/></div>
         <div class="flex flex-col justify-end">
-          <Navigation class="md:pb-20 md:px-4 sm:pb-10 pb-6"/>
+          <Navigation class="md:pb-6 md:px-4 sm:pb-5 pb-6"/>
           <Social class="flex flex-row justify-end md:px-4"/>
         </div>
       </div>

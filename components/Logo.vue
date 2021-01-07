@@ -1,5 +1,5 @@
 <template>
- <nuxt-link to="/"><div class="logo font-bold"><span class="logo-txt text-left">pauloguerraf.com</span></div></nuxt-link>
+ <nuxt-link to="/"><div id="logo-txt" class="logo font-bold text-left">pauloguerraf.com</div></nuxt-link>
 </template>
 <script>
 import anime from 'animejs'
@@ -73,24 +73,24 @@ export default {
   90% { content: var(--char-9); }
   100% { content: var(--char-0); }
 }
-.logo-txt{
+#logo-txt{
   -webkit-text-stroke:1px blue;
   -webkit-text-fill-color:transparent;
   -webkit-transition: all .2s ease-out;
   writing-mode: vertical-lr;
-  transform: rotate(180deg);
+  transform: rotate(180deg) !important;
   text-orientation: sideways;
   text-orientation: sideways;
   font-size: clamp(8vh, 4vw, 80vh) !important;
-  line-height: 1.0;
+  line-height: 1.0 !important;
 }
 @media (min-width: 768px) {
- .logo-txt{
-   -webkit-text-stroke:2px blue;
+ #logo-txt{
+   -webkit-text-stroke:1.5px blue;
  }
 }
 
-.logo-txt:hover{
+#logo-txt:hover{
   -webkit-text-fill-color:blue;
 }
 </style>
