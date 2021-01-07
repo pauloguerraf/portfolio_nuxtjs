@@ -84,7 +84,7 @@ export default {
   font-size: clamp(8vh, 4vw, 80vh) !important;
   line-height: 1.0;
 }
-@media screen(min-width: 768px) {
+@media (min-width: 768px) {
  .logo-txt{
    -webkit-text-stroke:2px blue;
  }

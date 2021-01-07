@@ -37,11 +37,11 @@ export default {
 
 <style>
 #left{
-  background: rgba(255, 255, 255, 0.502);
+  background: rgba(138, 138, 138, 0.612);
   /*box-shadow: 10px 10px 10px 0 rgba(221, 255, 0, 0.1);*/
   box-shadow: 10px 10px 10px 0 rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur( 20px );
-  -webkit-backdrop-filter: blur( 20px );
+  backdrop-filter: blur( 15px );
+  -webkit-backdrop-filter: blur( 15px );
   border-radius: 10px;
 }
 
