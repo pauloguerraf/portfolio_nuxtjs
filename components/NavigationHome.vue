@@ -41,7 +41,7 @@ export default {
   pointer-events: none;
 }
 .menu-item:hover{
-  color: #d2f700;
+  color: #d9ff00;
   font-style: italic;
   transform: translateX(1.5rem);
 }

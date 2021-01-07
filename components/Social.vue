@@ -35,8 +35,14 @@ export default {
 <style scoped>
 .social-link svg{
   color:#0000ff;
+  border-radius: 0%;
+  border-color:#d9ff00;
+  border-width: 0px;
+  transition: border-radius 0.1s, border-color 0.05s, border-width 0.05s;
 }
 .social-link:hover svg{
-  color:#c8ff00;
+  border-radius: 50%;
+  border-color:rgb(217, 255, 0, 0.75);
+  border-width: 8px;
 }
 </style>
