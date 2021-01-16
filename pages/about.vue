@@ -7,8 +7,8 @@
   <!--group-->
   <div class="md:text-4xl text-3xl lg:px-40 md:px-36 px-20">
     <!--nav-->
-    <div class="flex justify-center py-2 text-xl">
-      <div>
+    <div class="flex justify-center py-2 text-xl ">
+      <div class="text-primary z-10 ">
         <nuxt-link class="md:p-2 p-1 font-menu" to="/about">About</nuxt-link>
         <nuxt-link class="md:p-2 p-1 font-menu" to="/work">Work</nuxt-link>
         <nuxt-link class="md:p-2 p-1 font-menu" to="/experiments">Experiments</nuxt-link>
@@ -33,12 +33,15 @@
         <div>In 2018, I co-founded <strong><a href="https://nidointeractive.com">NIDO Interactive</a></strong>, a company focused on providing quality digital services to clients in Ecuador, Brazil and USA. Since its beginning, NIDO has built websites and developed mobile, AR and VR experiencies, for more than 50 clients. I have been <strong>responsible</strong> for selecting the technologies for and supervising the development of such projects.</div>
       </div>
       <div class="md:py-16 py-8 text-2xl md:px-8 px-4 z-10">
-        <div>NuxtJS, WordPress, ThreeJS, Processing, Unity, Unreal Engine, openFrameworks, Arduino, Raspberry Pi, are some of the <strong>tools</strong> I've had the opportunity to become familiar with and use on client projects. Find out more about some of my projects on the <strong><nuxt-link to="/work">work</nuxt-link></strong> section.</div>
+        <div>NuxtJS, WordPress, ThreeJS, Processing, Unity, Unreal Engine, openFrameworks, Arduino, Raspberry Pi, Resolume Arena, are some of the <strong>tools</strong> I've had the opportunity to become familiar with and use on client projects. Find out more about some of my projects on the <strong><nuxt-link to="/work">work</nuxt-link></strong> section.</div>
       </div>
     </div>
 
      <!--social-->
-    <Social class="flex md:py-20 py-10 md:justify-end justify-center"/>
+     <div class="flex md:py-20 py-10 justify-between w-full flex-col sm:flex-row items-center">
+      <div class="flex text-primary font-bold text-xl"><a href="/docs/paulo_guerra_f_cv2021.pdf">DOWNLOAD RESUME</a></div>
+      <Social class="flex sm:py-0 py-10"/>
+     </div>
   </div>
 </div>
 </template>

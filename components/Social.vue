@@ -34,14 +34,24 @@ export default {
 
 <style scoped>
 .social-link svg{
-  color:#0000ff;
+  color: #0000ff;
   border-radius: 0%;
   border-width: 0px;
-  transition: border-radius 0.05s linear, border-color 0.1s linear, border-width 0.05s linear;
+  transition:
+  border-radius 0.05s linear,
+  border-color 0.1s linear,
+  border-width 0.05s linear,
+  color 0.1s linear;
+  background:transparent;
+
 }
 .social-link:hover svg{
   border-radius: 50%;
-  border-color:rgb(217, 255, 0, 0.65);
-  border-width: 8px;
+  /*border-color:rgb(217, 255, 0, 0.65);*/
+  border-color:rgb(0, 0, 255, 0.65);
+  border-width: 4px;
+  border-color:rgb(0, 0, 255, 0.65);
+  color: #d9ff00;
+  background:#0000ff;
 }
 </style>

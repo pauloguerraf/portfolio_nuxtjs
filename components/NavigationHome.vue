@@ -1,5 +1,5 @@
 <template>
-  <div id="navigation" class="flex flex-col justify-center items-end">
+  <div id="navigation" class="flex flex-col justify-center items-end text-primary">
     <nuxt-link class="menu-item md:p-2 p-1 font-menu" to="/about">About</nuxt-link>
     <nuxt-link class="menu-item md:p-2 p-1 font-menu" to="/work">Work</nuxt-link>
     <nuxt-link class="menu-item md:p-2 p-1 font-menu" to="/experiments">Experiments</nuxt-link>
@@ -55,8 +55,5 @@ export default {
   left: -5.5rem;
   right: 0;
   height: 100%;
-}
-#navigation{
-  color: #0000ff;
 }
 </style>
