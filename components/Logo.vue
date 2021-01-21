@@ -14,7 +14,7 @@ export default {
     anime({
         targets:'#logo-txt',
         opacity: ['0', '1'],
-        translate: ['50%', '-50%'],
+        translate: ['50%', '0%'],
         duration: 1000,
         delay: 200,
         easing: 'easeOutCubic'
@@ -24,15 +24,15 @@ export default {
 </script>
 <style>
 #logo-txt{
-  -webkit-text-stroke: 1px #2852DC;
-  -webkit-text-fill-color: #2852DC;
+  -webkit-text-stroke: 1px #2852DC22;
+  -webkit-text-fill-color: #2852DC22;
   -webkit-transition: -webkit-text-fill-color .2s ease-out;
   writing-mode: vertical-lr;
   transform: rotate(180deg) !important;
   text-orientation: sideways;
   text-orientation: sideways;
-  font-size: clamp(8vh, 4vw, 80vh) !important;
-  line-height: 1.0 !important;
+  font-size: clamp(9vh, 5vw, 90vh) !important;
+  line-height: 0.5 !important;
 }
 @media (min-width: 768px) {
  #logo-txt{

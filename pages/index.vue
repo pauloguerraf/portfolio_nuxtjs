@@ -1,17 +1,17 @@
 <template>
   <div class="h-screen">
     <div class="absolute h-full lg:p-20 p-6 z-10 w-full">
-      <div :id="modeId" class="flex h-full w-full justify-end">
-        <div class="flex flex-col justify-start bg-background items-end md:px-10 px-6 md:py-4 py-2"><Logo/>
+      <div :id="modeId" class="flex h-full w-full md:justify-end">
+        <div class="overflow-hidden flex flex-col justify-center md:bg-background items-end md:px-10 px-10"><Logo/>
         </div>
-        <div class="flex flex-col justify-between md:w-auto bg-background md:px- px-8 md:py-6 py-3">
+        <div class="flex flex-col justify-between md:w-auto w-full md:bg-background px-8 md:py-6 py-3">
           <div class="flex justify-end md:pb-6 sm:pb-5 pb-6 font-bold text-primary">
             <SwitchGlass @changeGlassState="smartGlass=!smartGlass"/>
             </div>
-          <div>
+          <div class="flex flex-col items-end">
             <NavigationHome class="md:pb-6 sm:pb-5 pb-6"/>
-            <div class="border-t-4 border-secondary md:pb-8 sm:pb-6 pb-8"></div>
-            <Social class="flex flex-row justify-center md:px-4"/>
+            <div class="border-t-4 border-secondary md:pb-8 sm:pb-6 pb-8 w-1/4 md:w-full"></div>
+            <Social class="flex flex-row md:justify-center justify-end md:px-4"/>
           </div>
         </div>
       </div>
@@ -53,11 +53,11 @@ export default {
 
 <style>
 #glass-transparent{
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.05);
   /*box-shadow: 10px 10px 10px 0 rgba(221, 255, 0, 0.1);*/
-  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur( 1px );
-  -webkit-backdrop-filter: blur( 1px );
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur( 2px );
+  -webkit-backdrop-filter: blur( 2px );
   border-radius: 3px;
   mix-blend-mode: difference;
   transition: all 0.5s;

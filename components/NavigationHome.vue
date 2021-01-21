@@ -27,7 +27,7 @@ export default {
 .menu-item{
   transition: transform;
   transition-duration: 500ms;
-  font-size: clamp(100%, 1rem + 1.85vw, 75vh) !important;
+  font-size: clamp(100%, 1rem + 1.85vh, 75vh) !important;
 }
 .menu-item::before {
   content: '';
