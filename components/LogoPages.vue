@@ -2,23 +2,12 @@
  <nuxt-link to="/"><div id="logo-pages" class="px-6 py-3 font-bold text-left">pauloguerraf.com</div></nuxt-link>
 </template>
 <script>
-import anime from 'animejs'
 
 export default {
   data(){
     return{
     }
-  },
-  mounted(){
-    anime({
-        targets:'#logo-pages',
-        opacity: ['0', '1'],
-        translate: ['-25%', '0'],
-        duration: 1000,
-        delay: 200,
-        easing: 'easeOutCubic'
-      })
-    }
+  }
 }
 </script>
 <style>
@@ -39,7 +28,7 @@ export default {
 }
 
 #logo-pages:hover{
-  -webkit-text-fill-color:#00CEA7;
-  -webkit-text-stroke: 1px  #FAB152;
+  -webkit-text-fill-color:#F4E1D2;
+  -webkit-text-stroke: 1.5px  #00CEA7;
 }
 </style>

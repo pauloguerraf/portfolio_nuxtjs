@@ -1,25 +1,13 @@
 <template>
- <nuxt-link to="/"><div id="logo-txt" class="font-bold text-left">pauloguerraf.com</div></nuxt-link>
+ <nuxt-link to="/"><div id="logo-txt" class="leading-none font-bold text-left lg:text-5xl md:text-4xl sm:text-3xl text-2xl transform rotate-180 -translate-x-1/2 translate-y-0 scale-200 w-8">pauloguerraf.com</div></nuxt-link>
 </template>
 <script>
-import anime from 'animejs'
-
 export default {
   data(){
     return{
 
     }
-  },
-  mounted(){
-    anime({
-        targets:'#logo-txt',
-        opacity: ['0', '1'],
-        translate: ['50%', '0%'],
-        duration: 1000,
-        delay: 200,
-        easing: 'easeOutCubic'
-      })
-    }
+  }
 }
 </script>
 <style>
@@ -28,11 +16,7 @@ export default {
   -webkit-text-fill-color: #2852DC22;
   -webkit-transition: -webkit-text-fill-color .2s ease-out;
   writing-mode: vertical-lr;
-  transform: rotate(180deg) !important;
   text-orientation: sideways;
-  text-orientation: sideways;
-  font-size: clamp(9vh, 5vw, 90vh) !important;
-  line-height: 0.5 !important;
 }
 @media (min-width: 768px) {
  #logo-txt{

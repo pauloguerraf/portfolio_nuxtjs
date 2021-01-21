@@ -1,8 +1,8 @@
 <template>
-  <div id="navigation" class="flex flex-col justify-center items-end ">
-    <nuxt-link class="menu-item md:p-2 p-1 font-menu text-primary hover:text-secondary" to="/about">About</nuxt-link>
-    <nuxt-link class="menu-item md:p-2 p-1 font-menu text-primary hover:text-secondary" to="/work">Work</nuxt-link>
-    <nuxt-link class="menu-item md:p-2 p-1 font-menu text-primary hover:text-secondary" to="/experiments">Experiments</nuxt-link>
+  <div id="navigation" class="lg:text-5xl md:text-3xl sm:text-2xl text:2xl flex flex-col justify-center items-end ">
+    <nuxt-link class="menu-item font-menu text-primary hover:text-secondary" to="/about">About</nuxt-link>
+    <nuxt-link class="menu-item font-menu text-primary hover:text-secondary" to="/work">Work</nuxt-link>
+    <nuxt-link class="menu-item font-menu text-primary hover:text-secondary" to="/experiments">Experiments</nuxt-link>
   </div>
 </template>
 
@@ -27,7 +27,6 @@ export default {
 .menu-item{
   transition: transform;
   transition-duration: 500ms;
-  font-size: clamp(100%, 1rem + 1.85vh, 75vh) !important;
 }
 .menu-item::before {
   content: '';
@@ -55,5 +54,4 @@ export default {
   right: 0;
   height: 100%;
 }
-
 </style>
