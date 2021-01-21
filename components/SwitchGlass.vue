@@ -41,10 +41,9 @@
   background: var(--bg-1);
   border-radius: 1000px;
   position: relative;
-  width: 100px;
-  height: 50px;
+  width: 75px;
+  height: 35px;
   cursor: pointer;
-  transform: scale(0.75, 0.75);
 }
 
 input[type=checkbox] {
@@ -62,8 +61,8 @@ input[type=checkbox] {
   --bs-3: 180 50% 70%;
   --bs: none;
 
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background: var(--thumb);
   border-radius: 1000px;
   box-shadow: var(--bs);
@@ -76,6 +75,6 @@ input[type=checkbox] {
 input:checked+.circle {
   --thumb: var(--circle);
   --bs:0 0 10px px var(--circle);
-  transform: translateX(calc(60px - 4px));
+  transform: translateX(calc(45px - 4px));
 }
 </style>

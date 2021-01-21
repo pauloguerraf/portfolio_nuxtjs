@@ -9,8 +9,8 @@
     <!--nav-->
     <div class="flex justify-center py-2">
       <div class="z-10 ">
-        <nuxt-link class="md:p-2 p-1 font-logo text-2xl text-primary hover:text-terciary font-bold" to="/work">About</nuxt-link>
-        <nuxt-link class="md:p-2 p-1 font-logo text-2xl text-primary hover:text-terciary font-bold" to="/about">Work</nuxt-link>
+        <nuxt-link class="md:p-2 p-1 font-logo text-2xl text-primary hover:text-terciary font-bold" to="/about">About</nuxt-link>
+        <nuxt-link class="md:p-2 p-1 font-logo text-2xl text-primary hover:text-terciary font-bold" to="/work">Work</nuxt-link>
         <nuxt-link class="md:p-2 p-1 font-logo text-2xl text-primary hover:text-terciary font-bold" to="/experiments">Experiments</nuxt-link>
       </div>
     </div>
@@ -39,7 +39,7 @@
 
      <!--social-->
      <div class="flex md:py-20 py-10 justify-between w-full flex-col sm:flex-row items-center">
-      <div class="flex text-primary font-bold text-xl"><a href="/docs/paulo_guerra_f_cv2021.pdf">DOWNLOAD RESUME</a></div>
+      <div class="flex text-primary hover:text-terciary font-bold text-xl"><a href="/docs/paulo_guerra_f_cv2021.pdf">DOWNLOAD RESUME</a></div>
       <Social class="flex sm:py-0 py-10"/>
      </div>
   </div>

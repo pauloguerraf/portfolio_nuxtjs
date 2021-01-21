@@ -1,9 +1,10 @@
 <template>
   <div class="h-screen">
     <div class="absolute h-full lg:p-20 p-6 z-10 w-full">
-      <div :id="modeId" class="flex h-full justify-between">
-        <div class="flex flex-col justify-end md:px-6 px-3 md:py-6 py-3"><Logo/></div>
-        <div class="flex flex-col justify-between md:w-1/4 w-3/4 bg-background md:px-12 px-8 md:py-6 py-3">
+      <div :id="modeId" class="flex h-full w-full justify-end">
+        <div class="flex flex-col justify-start bg-background items-end md:px-10 px-6 md:py-4 py-2"><Logo/>
+        </div>
+        <div class="flex flex-col justify-between md:w-auto bg-background md:px- px-8 md:py-6 py-3">
           <div class="flex justify-end md:pb-6 sm:pb-5 pb-6 font-bold text-primary">
             <SwitchGlass @changeGlassState="smartGlass=!smartGlass"/>
             </div>
@@ -58,7 +59,8 @@ export default {
   backdrop-filter: blur( 1px );
   -webkit-backdrop-filter: blur( 1px );
   border-radius: 3px;
-    mix-blend-mode: difference;
+  mix-blend-mode: difference;
+  transition: all 0.5s;
 
 }
 #glass-frosted{
@@ -68,5 +70,6 @@ export default {
   backdrop-filter: blur( 15px );
   -webkit-backdrop-filter: blur( 15px );
   border-radius: 3px;
+  transition: all 0.5s;
 }
 </style>
