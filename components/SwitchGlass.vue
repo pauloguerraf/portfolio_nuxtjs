@@ -1,16 +1,24 @@
 <template>
-  <div>
+  <div class="flex justify-end">
     <label class="switch">
-      <input type="checkbox">
+      <input type="checkbox" v-model="frostedGlass" @click='changeGlassState()'>
       <div class="circle"></div>
     </label>
-
   </div>
 </template>
 
 <script>
   export default {
-
+    data(){
+      return{
+        frostedGlass:true
+      }
+    },
+    methods: {
+      changeGlassState() {
+        this.$emit('changeGlassState')
+      }
+    }
   }
 </script>
 
@@ -25,11 +33,12 @@
 
 .switch {
   --thumb: rgb(150, 150, 150);
-  --bg-1: rgb(0, 0, 255);
+  --bg-1:#00CEA7;
   --bg-2: rgb(12, 30, 78);
+  --circle: #FAB152;
   display: flex;
   align-items: center;
-  background: #0000ff;
+  background: var(--bg-1);
   border-radius: 1000px;
   position: relative;
   width: 100px;
@@ -65,11 +74,8 @@ input[type=checkbox] {
 }
 
 input:checked+.circle {
-  --thumb: #d9ff00cc;
-  --bs:0 0 10px px #d9ff00;
+  --thumb: var(--circle);
+  --bs:0 0 10px px var(--circle);
   transform: translateX(calc(60px - 4px));
-}
-input:checked.switch {
-    background: #0000ff55;
 }
 </style>

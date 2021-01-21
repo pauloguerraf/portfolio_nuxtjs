@@ -22,6 +22,7 @@ export default {
 </script>
 <style>
 video {
-  filter: brightness(0.5) grayscale(0.8);
+  filter: grayscale(0.5);
+  mix-blend-mode: darken;
 }
 </style>

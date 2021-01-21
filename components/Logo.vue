@@ -24,8 +24,8 @@ export default {
 </script>
 <style>
 #logo-txt{
-  -webkit-text-stroke:1px blue;
-  -webkit-text-fill-color:blue;
+  -webkit-text-stroke: 1px  #2852DC;
+  -webkit-text-fill-color: #2852DC;
   -webkit-transition: -webkit-text-fill-color .2s ease-out;
   writing-mode: vertical-lr;
   transform: rotate(180deg) !important;
@@ -36,11 +36,12 @@ export default {
 }
 @media (min-width: 768px) {
  #logo-txt{
-   -webkit-text-stroke:1.5px blue;
+   -webkit-text-stroke:1px #F4E1D2;
  }
 }
 
 #logo-txt:hover{
-  -webkit-text-fill-color:transparent;
+  -webkit-text-fill-color: #F4E1D2;
+  -webkit-text-stroke: 1px #00CEA7;
 }
 </style>

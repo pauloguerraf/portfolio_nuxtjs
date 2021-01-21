@@ -1,31 +1,31 @@
 <template>
-<div class="bg-gray-100">
+<div class="bg-background">
    <!--about-->
-  <div id="about" class="fixed font-bold h-10 text-center w-full">ABOUT</div>
+  <div id="about" class="fixed font-bold h-10 text-center w-full text-secondary">ABOUT</div>
    <!--logo-->
   <LogoPages class="fixed"/>
   <!--group-->
   <div class="md:text-4xl text-3xl lg:px-40 md:px-36 px-20">
     <!--nav-->
-    <div class="flex justify-center py-2 text-xl ">
-      <div class="text-primary z-10 ">
-        <nuxt-link class="md:p-2 p-1 font-menu" to="/about">About</nuxt-link>
-        <nuxt-link class="md:p-2 p-1 font-menu" to="/work">Work</nuxt-link>
-        <nuxt-link class="md:p-2 p-1 font-menu" to="/experiments">Experiments</nuxt-link>
+    <div class="flex justify-center py-2">
+      <div class="z-10 ">
+        <nuxt-link class="md:p-2 p-1 font-logo text-2xl text-primary hover:text-terciary font-bold" to="/work">About</nuxt-link>
+        <nuxt-link class="md:p-2 p-1 font-logo text-2xl text-primary hover:text-terciary font-bold" to="/about">Work</nuxt-link>
+        <nuxt-link class="md:p-2 p-1 font-logo text-2xl text-primary hover:text-terciary font-bold" to="/experiments">Experiments</nuxt-link>
       </div>
     </div>
     <!--intro-->
-    <div id="intro" class="w-full py-12 lg:flex md:px-6 items-center z-10">
+    <div id="intro" class="w-full py-12 lg:flex md:px-6 items-center z-10 border-t-2 border-primary">
        <div class="lg:w-2/6 w-full sm:order-2 flex justify-center lg:pl-10">
           <img class="rounded-full sm:w-3/4 lg:w-full lg:flex" src="profile.jpg"/>
       </div>
-      <div class="lg:w-4/6 w-full md:py-16 py-8 z-10">
+      <div class="lg:w-4/6 w-full md:py-16 py-8 z-10 text-primary">
       Hi, my name is Paulo. I am a <strong>creative technologist</strong> passionate about exploring <strong>cutting edge</strong> technology-enabled <strong>interactions</strong> and connecting people through <strong>meaningful</strong> and innovative <strong>experiences</strong>.
       </div>
     </div>
 
     <!--history-->
-    <div id="history" class="grid md:grid-cols-3 grid-cols-1">
+    <div id="history" class="grid md:grid-cols-3 grid-cols-1 text-primary">
       <div class="md:py-16 py-8 text-2xl md:px-8 px-4 border-b-2 md:border-b-0 z-10">
         <div>I have taught introductory and advanced Physical Computing and Interactive Media classes at <strong><a href="https://www.udla.edu.ec">Universidad de las Américas</a></strong> for almost 7 years. As a professor, I have led academic projects and contributed to the development of the creative programming and interactive media <strong>community</strong> in Ecuador.</div>
       </div>
@@ -55,15 +55,11 @@ import Social from '~/components/Social.vue'
 </script>
 
 <style lang="scss" scoped>
-#intro, #history{
-  color: blue;
-  border-top: 2px solid #0000ff;
-}
+
 #history{
     border-bottom: 2px solid #0000ff;
 }
 #about{
-  color:  #d2f700;
   opacity:0.2;
   z-index:0;
   font-size: 25vw !important;

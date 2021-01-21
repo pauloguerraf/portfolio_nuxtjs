@@ -23,8 +23,7 @@ export default {
 </script>
 <style>
 #logo-pages{
-  -webkit-text-stroke:1px blue;
-  -webkit-text-fill-color:blue;
+  -webkit-text-fill-color: #2852DC;
   -webkit-transition: -webkit-text-fill-color .2s ease-out;
   writing-mode: vertical-lr;
   transform: rotate(180deg) translate(25%, 0) !important;
@@ -34,12 +33,13 @@ export default {
   line-height: 1.0 !important;
 }
 @media (min-width: 768px) {
- #logo-pages{
-   -webkit-text-stroke:1.5px blue;
- }
+ /* #logo-pages{
+   -webkit-text-stroke:2px  #FAB152;
+ } */
 }
 
 #logo-pages:hover{
-  -webkit-text-fill-color:transparent;
+  -webkit-text-fill-color:#00CEA7;
+  -webkit-text-stroke: 1px  #FAB152;
 }
 </style>

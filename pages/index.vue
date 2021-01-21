@@ -1,15 +1,16 @@
 <template>
   <div class="h-screen">
     <div class="absolute h-full lg:p-20 p-6 z-10 w-full">
-      <div class="glass-frosted flex h-full justify-between md:px-6 px-3 md:py-6 py-3 ">
-        <div class="flex flex-col justify-end"><Logo/></div>
-        <div class="flex flex-col justify-between">
-          <div class="flex justify-end md:pb-6 md:px-4 sm:pb-5 pb-6 font-bold text-primary">
-            <SwitchGlass/>
+      <div :id="modeId" class="flex h-full justify-between">
+        <div class="flex flex-col justify-end md:px-6 px-3 md:py-6 py-3"><Logo/></div>
+        <div class="flex flex-col justify-between md:w-1/4 w-3/4 bg-background md:px-12 px-8 md:py-6 py-3">
+          <div class="flex justify-end md:pb-6 sm:pb-5 pb-6 font-bold text-primary">
+            <SwitchGlass @changeGlassState="smartGlass=!smartGlass"/>
             </div>
           <div>
-            <NavigationHome class="md:pb-6 md:px-4 sm:pb-5 pb-6"/>
-            <Social class="flex flex-row justify-end md:px-4"/>
+            <NavigationHome class="md:pb-6 sm:pb-5 pb-6"/>
+            <div class="border-t-4 border-secondary md:pb-8 sm:pb-6 pb-8"></div>
+            <Social class="flex flex-row justify-center md:px-4"/>
           </div>
         </div>
       </div>
@@ -28,6 +29,11 @@
 import anime from 'animejs'
 
 export default {
+   data(){
+     return{
+       smartGlass: true,
+     }
+   },
    mounted(){
      anime({
         targets:'#left',
@@ -35,22 +41,28 @@ export default {
         duration: 1000,
         easing: 'easeOutCubic'
       })
+  },
+  computed: {
+    modeId(){
+      return this.smartGlass ? 'glass-frosted' : 'glass-transparent';
+    }
   }
-
 }
 </script>
 
 <style>
-.glass-transparent{
-  background: rgba(255, 255, 255, 0.1);
+#glass-transparent{
+  background: rgba(0, 0, 0, 0.3);
   /*box-shadow: 10px 10px 10px 0 rgba(221, 255, 0, 0.1);*/
   box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.3);
   backdrop-filter: blur( 1px );
   -webkit-backdrop-filter: blur( 1px );
   border-radius: 3px;
+    mix-blend-mode: difference;
+
 }
-.glass-frosted{
-  background: rgba(255, 255, 255, 0.4);
+#glass-frosted{
+  background:#F4E1D266;
   /*box-shadow: 10px 10px 10px 0 rgba(221, 255, 0, 0.1);*/
   box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.3);
   backdrop-filter: blur( 15px );

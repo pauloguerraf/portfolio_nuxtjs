@@ -7,7 +7,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#0000ff',
+        primary: '#2852DC',
+        secondary: '#FAB152',
+        terciary: '#00CEA7',
+        background: '#F4E1D2',
       },
       fontFamily: {
         logo: ["Arvo", "sans-serif"],
