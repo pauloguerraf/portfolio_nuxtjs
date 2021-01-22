@@ -2,7 +2,7 @@
   <div class="h-screen">
     <div class="absolute h-full lg:p-20 p-4 z-10 w-full">
       <div :id="modeId" class="flex h-full w-full md:justify-end">
-        <div class="overflow-hidden flex flex-col justify-center md:bg-background items-end md:px-10 px-10">
+        <div class="overflow-hidden flex flex-col justify-end md:bg-background items-end md:px-10 px-10">
           <Logo/>
         </div>
         <div class="flex flex-col justify-between md:w-auto w-full md:bg-background px-8 md:py-6 py-3">

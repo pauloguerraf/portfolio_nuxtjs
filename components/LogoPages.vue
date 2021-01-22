@@ -12,7 +12,8 @@ export default {
 </script>
 <style>
 #logo-pages{
-  -webkit-text-fill-color: #2852DC;
+  -webkit-text-stroke: 1px #2852DC22;
+  -webkit-text-fill-color: #2852DC22;
   -webkit-transition: -webkit-text-fill-color .2s ease-out;
   writing-mode: vertical-lr;
   transform: rotate(180deg) translate(25%, 0) !important;

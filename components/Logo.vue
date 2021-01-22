@@ -1,5 +1,5 @@
 <template>
- <nuxt-link to="/"><div id="logo-txt" class="leading-none font-bold text-left lg:text-5xl md:text-4xl sm:text-3xl text-2xl transform rotate-180 -translate-x-1/2 translate-y-0 scale-200 w-8">pauloguerraf.com</div></nuxt-link>
+ <nuxt-link to="/"><div id="logo-txt" class="leading-none font-bold text-left lg:text-6xl md:text-4xl sm:text-3xl text-2xl w-8 transform -rotate-180 -translate-x-1/2 translate-y-0">pauloguerraf.com</div></nuxt-link>
 </template>
 <script>
 export default {
