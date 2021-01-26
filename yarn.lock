@@ -1310,12 +1310,12 @@
     consola "^2.15.0"
     defu "^3.1.0"
 
-"@nuxtjs/color-mode@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/color-mode/-/color-mode-2.0.0.tgz#6efcc443353ad4136d2c5d04d011ad3839349a0f"
-  integrity sha512-h3LFcfeKgNb8lzLu8vP/umbFxL+aFopzEiF9wHxyFAKCokdbnJyK7wY3+xqaX9eRUnlkxHbIcOO0dnyVZQkqPQ==
+"@nuxtjs/color-mode@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/color-mode/-/color-mode-2.0.3.tgz#6ba5ab0a6364c966b48386867f2660bf0dcd7b5d"
+  integrity sha512-yfTkUbXcq42YW7qCv66kqAttnjr+sLpxY+HIJq7nlLadDQeEyjl+QMR8AHKS2KQMVfMwd7rbJyE+jU2PKjwDcQ==
   dependencies:
-    defu "^2.0.4"
+    defu "^3.2.2"
     lodash.template "^4.5.0"
 
 "@nuxtjs/google-fonts@^1.2.0":
