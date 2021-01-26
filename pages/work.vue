@@ -1,5 +1,5 @@
 <template>
-  <div class="m-8">
+  <div class="w-full bg-background">
     <TheHeader />
 
     <h1 class="font-bold text-4xl text-myblue">Blog Posts</h1>
