@@ -38,6 +38,7 @@ css: ['~/assets/main.css'],
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
+    '@nuxtjs/google-fonts',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -60,5 +61,16 @@ css: ['~/assets/main.css'],
   gsap: {},
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+  googleFonts: {
+    families: {
+      Roboto: true,
+      'Josefin+Sans': true,
+      Lato: [100, 300, 700],
+      Raleway: {
+        wght: [100, 400],
+        ital: [100]
+      },
+    }
   }
 }

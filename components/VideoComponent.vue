@@ -20,9 +20,4 @@ export default {
   mounted() {}
 }
 </script>
-<style>
-video {
-  filter: grayscale(0.5);
-  mix-blend-mode: darken;
-}
-</style>
+

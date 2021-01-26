@@ -7,14 +7,14 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#2852DC',
-        secondary: '#FAB152',
-        terciary: '#00CEA7',
-        background: '#F4E1D2',
+        myred: '#E50974',
+        myblue: '#0101C2',
+        myyellow: '#DDFF00',
+        background: '#0101C2',
       },
       fontFamily: {
-        logo: ["Arvo", "sans-serif"],
-        menu: ["Playfair Display"]
+        logo: ["Roboto", "sans-serif"],
+        menu: ["Lato"]
       },
     },
     fontSize: {

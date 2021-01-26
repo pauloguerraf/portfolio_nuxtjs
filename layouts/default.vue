@@ -20,12 +20,15 @@ html {
 }
 body{
   background-color: white;
+  margin: 0;
+  padding: 0;
 }
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 .quote{
   overflow: hidden;

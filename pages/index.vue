@@ -1,29 +1,30 @@
 <template>
-  <div class="h-screen">
-    <div class="absolute h-full lg:p-20 p-4 z-10 w-full">
-      <div :id="modeId" class="flex h-full w-full md:justify-end">
-        <div class="overflow-hidden flex flex-col justify-end md:bg-background items-end md:px-10 px-10">
-          <Logo/>
-        </div>
-        <div class="flex flex-col justify-between md:w-auto w-full md:bg-background px-8 md:py-6 py-3">
-          <div class="flex justify-end md:pb-6 sm:pb-5 pb-6 font-bold text-primary">
-            <SwitchGlass @changeGlassState="smartGlass=!smartGlass"/>
-            </div>
-          <div class="flex flex-col items-end">
-            <NavigationHome class="lg:pb-8 md:pb-6 sm:pb-4 pb-2"/>
-            <div class="border-t-4 border-secondary lg:pb-8 md:pb-6 sm:pb-4 pb-2 w-1/4 md:w-full"></div>
-            <Social class="flex flex-row md:justify-center justify-end md:px-4"/>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="">
+  <div class="w-full bg-background">
+    <Logo class="fixed top-0 left-0 z-50"/>
+    <NavigationHome class="relative z-50"/>
+    <section class="relative flex justify-center items-center z-0">
       <VideoComponent
         id="video-1"
         source="videos/interactive.mp4"
-        class="aboslute h-screen object-cover"
+        class="w-2/3 object-cover"
       ></VideoComponent>
-    </div>
+    </section>
+    <section class="w-10/12 mx-auto">
+      <figure class="border-primary border-t bg-black "></figure>
+      <div class="relative flex justify-center items-center h-full">
+        <div class="w-1/2 flex flex-col">
+          <p class="text-6xl  p-12 font-logo text-white">
+            building tech projects and having fun in the process since the late <span class="font-bold text-myyellow">80's.</span>
+          </p>
+          <button>read more about me</button>
+        </div>
+        <VideoComponent
+        id="video-1"
+        source="videos/steerbywire.mp4"
+        class="w-1/3 transform -rotate-6 object-cover"
+      ></VideoComponent>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -53,6 +54,9 @@ export default {
 </script>
 
 <style>
+section{
+  height: calc(100vh - 20vh);
+}
 #glass-transparent{
   background: rgba(255, 255, 255, 0.05);
   /*box-shadow: 10px 10px 10px 0 rgba(221, 255, 0, 0.1);*/
