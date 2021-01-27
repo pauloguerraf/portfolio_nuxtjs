@@ -41,16 +41,16 @@ export default {
 
 }
 .social-link:hover svg{
-  color:#DDFF00;
+  color:#FF0032;
   border-radius: 20%;
   /*border-color:rgb(217, 255, 0, 0.65);*/
   border-color:#0101C2a6;
   border-width: 5px;
   background: #0101C2;
   transition:
-  border-radius 0.25s linear,
-  border-color 0.25s linear,
-  border-width 0.25s linear,
-  color 0.25s linear;
+  border-radius 0.2s linear,
+  border-color 0.2s linear,
+  border-width 0.2s linear,
+  color 0.2s linear;
 }
 </style>

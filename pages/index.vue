@@ -11,20 +11,35 @@
     </section>
     <section class="w-10/12 mx-auto">
       <figure class="border-primary border-t bg-black "></figure>
-      <div class="relative flex justify-center items-center h-full">
-        <div class="w-1/2 flex flex-col">
-          <p class="text-6xl  p-12 font-logo text-white">
-            building tech projects and having fun in the process since the late <span class="font-bold text-myyellow">80's.</span>
+      <div class="relative w-full flex flex-wrap-reverse justify-around sm:justify-center items-center h-full">
+        <div class="sm:w-2/3 w-full flex flex-col h-full justify-center  md:pr-48 items-center">
+          <p class="lg:text-4xl md:text-2xl text-2xl font-logo text-white">
+            since the late <span class="font-bold text-myyellow">'90s</span>, I have been <strong>helping</strong> brands create beautiful & valuable interactive experiences, overcome the <strong>challenges</strong> of using new technologies, and have fun in the <strong>process.</strong>
           </p>
-          <button>read more about me</button>
+          <div class="ml-auto py-10">
+            <ButtonLink url="/about"/>
+          </div>
         </div>
         <VideoComponent
         id="video-1"
         source="videos/steerbywire.mp4"
-        class="w-1/3 transform -rotate-6 object-cover"
+        class="sm:w-1/2 w-10/12 md:w-1/3 transform -rotate-6 object-cover md:pr-20 md:py-0 py-20"
       ></VideoComponent>
       </div>
     </section>
+    <section class="w-10/12 mx-auto">
+      <figure class="border-primary border-t bg-black "></figure>
+      <div class="text-white font-extrabold text-3xl py-20">FEATURED<br>COLLABORATIONS</div>
+      <div class="relative w-full flex flex-wrap-reverse justify-around sm:justify-center items-center h-full">
+      </div>
+    </section>
+    <div class="relative w-10/12 mx-auto z-50">
+      <figure class="border-primary border-t bg-black "></figure>
+      <div class="flex md:py-20 py-10 justify-between w-full flex-col sm:flex-row items-center">
+        <div class="flex text-white font-bold text-xl no-underline hover:text-myred hover:underline"><a class="" href="/docs/paulo_guerra_f_cv2021.pdf">DOWNLOAD RESUME</a></div>
+        <Social class="flex sm:py-0 py-10"/>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -55,7 +70,13 @@ export default {
 
 <style>
 section{
-  height: calc(100vh - 20vh);
+    min-height: 60vh;
+}
+@media (min-width: 768px) {
+  section{
+    min-height: 60vh;
+    height: calc(100vh - 20vh);
+  }
 }
 #glass-transparent{
   background: rgba(255, 255, 255, 0.05);

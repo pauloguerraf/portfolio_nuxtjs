@@ -22,19 +22,19 @@
     <!--history-->
     <div id="history" class="grid md:grid-cols-3 grid-cols-1 text-white">
       <div class="md:py-16 py-8 text-2xl md:px-8 px-4 border-b-2 md:border-b-0 z-10">
-        <div>I have taught introductory and advanced Physical Computing and Interactive Media classes at <strong class="text-myyellow"><a href="https://www.udla.edu.ec">Universidad de las Américas</a></strong> for the last 7 years. As a professor, I have led academic projects and contributed to the development of the creative programming and interactive media <strong>community</strong> in Ecuador.</div>
+        <div>I have taught introductory and advanced Physical Computing and Interactive Media classes at <TextLink url="https://www.udla.edu.ec" internal=false text="Universidad de las Américas" class="inline"/>for the last 7 years. As a professor, I have led academic projects and contributed to the development of the creative programming and interactive media <strong>community</strong> in Ecuador.</div>
       </div>
       <div class="md:py-16 py-8 text-2xl md:px-8 px-4 border-b-2 md:border-b-0 md:border-l md:border-r z-10">
-        <div>In 2018, I co-founded <strong class="text-myyellow"><a href="https://nidointeractive.com">NIDO Interactive</a></strong>, a company focused on providing quality digital services to clients in Ecuador, Brazil and USA. Since its beginning, NIDO has built websites and developed mobile, AR and VR experiencies, for more than 50 clients. I have been <strong>responsible</strong> for selecting the technologies for and supervising the development of such projects.</div>
+        <div>In 2018, I co-founded <TextLink url="https://nidointeractive.com" internal=false text="NIDO Interactive" class="inline"/>, a company focused on providing quality digital services to clients in Ecuador, Brazil and USA. Since its beginning, NIDO has built websites and developed mobile, AR and VR experiencies, for more than 50 clients. I have been <strong>responsible</strong> for selecting the technologies for and supervising the development of such projects.</div>
       </div>
       <div class="md:py-16 py-8 text-2xl md:px-8 px-4 z-10">
-        <div>NuxtJS, WordPress, ThreeJS, Processing, Unity, Unreal Engine, openFrameworks, Arduino, Raspberry Pi, Resolume Arena, are some of the <strong>tools</strong> I've had the opportunity to become familiar with and use on client projects. Find out more about some of my projects on the <strong class="text-myyellow"><nuxt-link to="/work">work</nuxt-link></strong> section.</div>
+        <div>NuxtJS, WordPress, ThreeJS, Processing, Unity, Unreal Engine, openFrameworks, Arduino, Raspberry Pi, Resolume Arena, are some of the <strong>tools</strong> I've had the opportunity to become familiar with and use on client projects. Find out more about some of my projects on the <TextLink url="/work" internal=true text="work" class="inline"/> section.</div>
       </div>
     </div>
 
      <!--social-->
      <div class="flex md:py-20 py-10 justify-between w-full flex-col sm:flex-row items-center">
-      <div class="flex text-white hover:text-myyellow font-bold text-xl"><a href="/docs/paulo_guerra_f_cv2021.pdf">DOWNLOAD RESUME</a></div>
+      <div class="flex text-white font-bold text-xl no-underline hover:text-myred hover:underline"><a class="" href="/docs/paulo_guerra_f_cv2021.pdf">DOWNLOAD RESUME</a></div>
       <Social class="flex sm:py-0 py-10"/>
      </div>
   </div>
@@ -43,10 +43,12 @@
 
 <script>
 import Social from '~/components/Social.vue'
+import TextLink from '~/components/TextLink.vue'
   export default {
   components: { Social },
 
-  }
+
+    TextLink}
 </script>
 
 <style lang="scss" scoped>

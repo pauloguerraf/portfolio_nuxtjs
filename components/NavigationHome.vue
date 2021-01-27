@@ -1,8 +1,8 @@
 <template>
-  <div id="navigation" class="lg:text-4xl text-2xl flex justify-center items-end py-4">
-    <nuxt-link class="menu-item px-10 w-1/4 text-center font-menu text-white hover:text-myyellow hover:font-bold" to="/about">About</nuxt-link>
-    <nuxt-link class="menu-item px-10 w-1/4 text-center font-menu text-white hover:text-myyellow hover:font-bold" to="/work">Work</nuxt-link>
-    <nuxt-link class="menu-item px-10 w-1/4 text-center font-menu text-white hover:text-myyellow hover:font-bold" to="/experiments">Experiments</nuxt-link>
+  <div id="navigation" class="flex justify-center items-end py-4">
+    <nuxt-link class="menu-item uppercase px-10 w-1/4 text-center font-menu text-white hover:text-myyellow font-extrabold text-xl" to="/about">About</nuxt-link>
+    <nuxt-link class="menu-item uppercase px-10 w-1/4 text-center font-menu text-white hover:text-myyellow font-extrabold text-xl" to="/work">Work</nuxt-link>
+    <nuxt-link class="menu-item uppercase px-10 w-1/4 text-center font-menu text-white hover:text-myyellow font-extrabold text-xl" to="/experiments">Experiments</nuxt-link>
   </div>
 </template>
 

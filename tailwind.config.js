@@ -7,15 +7,11 @@ module.exports = {
     },
     extend: {
       colors: {
-        myred: '#E50974',
+        myred: '#FF0032',
         myblue: '#0101C2',
         myyellow: '#DDFF00',
         background: '#0101C2',
-      },
-      fontFamily: {
-        logo: ["Roboto", "sans-serif"],
-        menu: ["Lato"]
-      },
+      }
     },
     fontSize: {
       'xs': '.75rem',

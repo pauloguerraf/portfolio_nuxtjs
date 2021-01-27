@@ -40,7 +40,7 @@
       >
         <NuxtLink :to="`/blog/tag/${tag.slug}`" class="">
           <p
-            class="font-bold text-gray-600 uppercase tracking-wider font-medium text-ss"
+            class="font-bold text-gray-600 uppercase tracking-wider text-ss"
           >
             {{ tag.name }}
           </p>
