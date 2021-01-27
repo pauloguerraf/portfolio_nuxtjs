@@ -9,27 +9,30 @@
         class="w-2/3 object-cover"
       ></VideoComponent>
     </section>
-    <section class="w-10/12 mx-auto">
+    <section class="w-10/12 mx-auto py-10">
       <figure class="border-primary border-t bg-black "></figure>
-      <div class="relative w-full flex flex-wrap-reverse justify-around sm:justify-center items-center h-full">
-        <div class="sm:w-2/3 w-full flex flex-col h-full justify-center  md:pr-48 items-center">
+      <div class="text-white font-bold text-4xl py-10">SINCE<br>THE LATE '90s</div>
+      <div class="py-10 relative w-full flex flex-wrap-reverse justify-between sm:justify-center items-stretch">
+        <div class="sm:w-2/3 w-full flex flex-col h-full justify-center items-center md:pr-20">
           <p class="lg:text-4xl md:text-2xl text-2xl font-logo text-white">
-            since the late <span class="font-bold text-myyellow">'90s</span>, I have been <strong>helping</strong> brands create beautiful & valuable interactive experiences, overcome the <strong>challenges</strong> of using new technologies, and have fun in the <strong>process.</strong>
+            <strong>helping</strong> brands overcome the <strong>challenges</strong> of using new technologies and enjoy the <strong>process</strong> of creating valuable interactive experiences.
           </p>
           <div class="ml-auto py-10">
             <ButtonLink url="/about"/>
           </div>
         </div>
-        <VideoComponent
-        id="video-1"
-        source="videos/steerbywire.mp4"
-        class="sm:w-1/2 w-10/12 md:w-1/3 transform -rotate-6 object-cover md:pr-20 md:py-0 py-20"
-      ></VideoComponent>
+        <div class="md:w-1/3 w-9/12 flex flex-col justify-start self-start">
+          <VideoComponent
+          id="video-1"
+          source="videos/steerbywire.mp4"
+          class="w-full transform -rotate-6 object-cover md:py-0 py-10"
+        ></VideoComponent>
+        </div>
       </div>
     </section>
     <section class="w-10/12 mx-auto">
       <figure class="border-primary border-t bg-black "></figure>
-      <div class="text-white font-extrabold text-3xl py-20">FEATURED<br>COLLABORATIONS</div>
+      <div class="text-white font-bold text-4xl py-20">FEATURED<br>COLLABORATIONS</div>
       <div class="relative w-full flex flex-wrap-reverse justify-around sm:justify-center items-center h-full">
       </div>
     </section>
@@ -75,7 +78,6 @@ section{
 @media (min-width: 768px) {
   section{
     min-height: 60vh;
-    height: calc(100vh - 20vh);
   }
 }
 #glass-transparent{
