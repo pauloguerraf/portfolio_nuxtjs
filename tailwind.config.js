@@ -7,10 +7,11 @@ module.exports = {
     },
     extend: {
       colors: {
-        myred: '#FF0032',
-        myblue: '#0101C2',
+        mycyan: '#00FFC3',
+        myorange: '#FFA700',
+        myblue: '#1f00b7',
         myyellow: '#DDFF00',
-        background: '#0101C2',
+        background: '#1f00b7',
       }
     },
     fontSize: {

@@ -25,20 +25,21 @@
       <li
         v-for="article of articles"
         :key="article.slug"
-        class="sm:w-full md:w-1/2 px-2 xs:mb-6 md:mb-12 article-card"
+        class="sm:w-full md:w-1/3 px-10 xs:mb-6 md:mb-12 text-white"
       >
           <NuxtLink
             :to="{ name: 'blog-slug', params: { slug: article.slug } }"
-            class="flex flex-col transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md md:flex-row"
+            class=" flex flex-col transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md "
           >
+
             <img
               v-if="article.img"
-              class="md:w-1/2 w-full object-cover"
+              class="w-full object-cover"
               :src="article.img"
             />
 
             <div
-              class="p-6 flex flex-col justify-between md:w-1/2 w-full"
+              class="py-6 flex flex-col justify-between w-full"
             >
               <h2 class="font-bold">{{ article.title }}</h2>
               <p>by {{ article.description }}</p>
@@ -53,7 +54,7 @@
     <!--social-->
       <figure class="border-primary border-t bg-white mx-auto"></figure>
       <footer class="flex md:py-20 py-10 justify-between w-full flex-col sm:flex-row items-center">
-        <div class="flex text-white font-bold text-xl no-underline hover:text-myred hover:underline">
+        <div class="flex text-white font-bold text-xl no-underline hover:text-myorange hover:underline">
           <a class="" href="/docs/paulo_guerra_f_cv2021.pdf">DOWNLOAD RESUME</a>
         </div>
         <Social class="flex sm:py-0 py-10"/>

@@ -7,16 +7,16 @@
       <VideoComponent
         id="video-1"
         source="videos/interactive.mp4"
-        class="w-2/3 object-cover"
+        class="w-2/3 object-cover py-10"
       ></VideoComponent>
     </section>
     <section class="w-10/12 mx-auto py-10">
       <figure class="border-primary border-t bg-black "></figure>
-      <div class="text-white font-bold text-4xl py-10">WORKING IN TECH<br>SINCE 1990</div>
+      <div class="text-white font-bold text-4xl py-10">PLAYING WITH TECH<br>SINCE THE '80s</div>
       <div class="py-10 relative w-full flex flex-wrap-reverse justify-between sm:justify-center items-stretch">
         <div class="sm:w-2/3 w-full flex flex-col h-full justify-center items-center md:pr-20">
-          <p class="lg:text-4xl md:text-2xl text-2xl font-logo text-white">
-            <strong>helping</strong> brands overcome <strong>challenges</strong> in using new technologies, and enjoying the <strong>process</strong> of creating valuable interactive experiences together.
+          <p class="lg:text-4xl md:text-2xl text-2xl font-logo text-white">I
+            <strong>help</strong> brands overcome <strong>challenges</strong> of using new technologies, and enjoythe <strong>process</strong> of creating valuable <strong>interactive</strong> experiences together.
           </p>
           <div class="ml-auto py-10">
             <ButtonLink url="/about"/>
@@ -40,7 +40,7 @@
     <div class="relative w-10/12 mx-auto z-50">
       <figure class="border-primary border-t bg-white"></figure>
       <div class="flex md:py-20 py-10 justify-between w-full flex-col sm:flex-row items-center">
-        <div class="flex text-white font-bold text-xl no-underline hover:text-myred hover:underline"><a class="" href="/docs/paulo_guerra_f_cv2021.pdf">DOWNLOAD RESUME</a></div>
+        <div class="flex text-white font-bold text-xl no-underline hover:text-myorange hover:underline"><a class="" href="/docs/paulo_guerra_f_cv2021.pdf">DOWNLOAD RESUME</a></div>
         <Social class="flex sm:py-0 py-10"/>
       </div>
     </div>

@@ -36,7 +36,7 @@
      <!--social-->
      <figure class="border-primary border-t bg-white mx-auto"></figure>
      <footer class="flex md:py-20 py-10 justify-between w-full flex-col sm:flex-row items-center">
-      <div class="flex text-white font-bold text-xl no-underline hover:text-myred hover:underline">
+      <div class="flex text-white font-bold text-xl no-underline hover:text-myorange hover:underline">
         <a class="" href="/docs/paulo_guerra_f_cv2021.pdf">DOWNLOAD RESUME</a>
       </div>
       <Social class="flex sm:py-0 py-10"/>
