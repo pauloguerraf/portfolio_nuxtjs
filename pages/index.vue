@@ -12,11 +12,11 @@
     </section>
     <section class="w-10/12 mx-auto py-10">
       <figure class="border-primary border-t bg-black "></figure>
-      <div class="text-white font-bold text-4xl py-10">SINCE<br>THE LATE '90s</div>
+      <div class="text-white font-bold text-4xl py-10">WORKING IN TECH<br>SINCE 1990</div>
       <div class="py-10 relative w-full flex flex-wrap-reverse justify-between sm:justify-center items-stretch">
         <div class="sm:w-2/3 w-full flex flex-col h-full justify-center items-center md:pr-20">
           <p class="lg:text-4xl md:text-2xl text-2xl font-logo text-white">
-            <strong>helping</strong> brands overcome the <strong>challenges</strong> of using new technologies and enjoy the <strong>process</strong> of creating valuable interactive experiences.
+            <strong>helping</strong> brands overcome <strong>challenges</strong> in using new technologies, and enjoying the <strong>process</strong> of creating valuable interactive experiences together.
           </p>
           <div class="ml-auto py-10">
             <ButtonLink url="/about"/>
