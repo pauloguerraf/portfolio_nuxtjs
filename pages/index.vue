@@ -2,6 +2,7 @@
   <div class="w-full bg-background">
     <Logo class="fixed top-0 left-0 z-50"/>
     <NavigationHome class="relative z-50"/>
+    <figure class="border-primary border-t bg-white w-10/12 mx-auto"></figure>
     <section class="relative flex justify-center items-center z-0">
       <VideoComponent
         id="video-1"
@@ -37,7 +38,7 @@
       </div>
     </section>
     <div class="relative w-10/12 mx-auto z-50">
-      <figure class="border-primary border-t bg-black "></figure>
+      <figure class="border-primary border-t bg-white"></figure>
       <div class="flex md:py-20 py-10 justify-between w-full flex-col sm:flex-row items-center">
         <div class="flex text-white font-bold text-xl no-underline hover:text-myred hover:underline"><a class="" href="/docs/paulo_guerra_f_cv2021.pdf">DOWNLOAD RESUME</a></div>
         <Social class="flex sm:py-0 py-10"/>

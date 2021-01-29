@@ -16,7 +16,7 @@
             {{ formatDate(article.updatedAt) }}
           </p>
           <span class="mr-3">•</span>
-          <p>{{ article.author.name }}</p>
+          <p>{{ article.description }}</p>
         </div>
         <h1 class="text-6xl font-bold">{{ article.title }}</h1>
         <span v-for="(tag, id) in article.tags" :key="id">
