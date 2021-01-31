@@ -1,7 +1,7 @@
 ---
-title: Say I Whay I Say
+title: Houdini
 description: This is a description for the article about me
-img: /projects_images/saywhatisay/poster.jpg
+img: /projects_images/houdini/poster.jpg
 alt: nice image
 tags:
   - web development

@@ -16,10 +16,10 @@
       <div class="py-10 relative w-full flex flex-wrap-reverse justify-between sm:justify-center items-stretch">
         <div class="sm:w-2/3 w-full flex flex-col h-full justify-center items-center md:pr-20">
           <p class="lg:text-4xl md:text-2xl text-2xl font-logo text-white">I
-            <strong>help</strong> brands overcome <strong>challenges</strong> of using new technologies, and enjoythe <strong>process</strong> of creating valuable <strong>interactive</strong> experiences together.
+            <strong>help</strong> brands overcome <strong>challenges</strong> of using new technologies, and enjoy the <strong>process</strong> of creating valuable <strong>interactive</strong> experiences together.
           </p>
           <div class="ml-auto py-10">
-            <ButtonLink url="/about"/>
+            <ButtonLink url="/about" text="more about me"/>
           </div>
         </div>
         <div class="md:w-1/3 w-9/12 flex flex-col justify-start self-start">

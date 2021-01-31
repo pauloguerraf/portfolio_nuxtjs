@@ -1,9 +1,9 @@
 <template>
   <div class="w-full bg-background">
      <!--logo-->
-    <Logo class="fixed top-0 left-0"/>
+    <Logo class="fixed top-0 left-0 z-50"/>
     <!--about-->
-    <div id="work" class="fixed font-bold h-10 text-center w-full text-white text-opacity-50">WORK</div>
+    <div id="work" class="fixed font-bold text-center w-full h-screen text-white text-opacity-50"><div class="relative margin-auto">WORK</div></div>
     <NavigationHome class="relative z-50"/>
     <figure class="border-primary border-t bg-white w-10/12 mx-auto"></figure>
 
@@ -16,7 +16,7 @@
           <!-- <img class="rounded-full sm:w-3/4 lg:w-full lg:flex" src="profile.jpg"/> -->
       </div>
       <div class="lg:w-4/6 w-full md:py-16 py-8 z-10 text-white">
-      Throughout my carreer, I have been part of several projects that have allowed me to explore and build experiences around the boundaries of both <strong>physical and digital</strong> worlds. From websites to multimedia installations, AR, VR, robotics exhibits and experimental interfaces, I have had the opportunity to learn from a lot of technologies and from the professionals using them around the world.
+      Throughout my carreer, I have been part of several projects that have allowed me to explore and build experiences around the boundaries of both <strong>physical and digital</strong> worlds. From websites to multimedia installations, AR, VR, robotics, traditional and experimental interfaces, I have had the opportunity to learn from many technologies and from some amazing professionals using them around the world.
       </div>
     </div>
 
@@ -97,6 +97,9 @@ export default {
   opacity:0.2;
   z-index:0;
   font-size: 25vw !important;
+}
+#work div{
+  top: 20%;
 }
 
 </style>

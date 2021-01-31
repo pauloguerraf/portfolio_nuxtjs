@@ -12,7 +12,7 @@ export default {
 </script>
 <style>
 #logo-txt{
-  -webkit-text-fill-color: #CCCCCC33;
+  -webkit-text-fill-color: #CCCCCC55;
   -webkit-transition: -webkit-text-fill-color .2s ease-out;
   transition: fill-color .2s ease-out;
   writing-mode: vertical-lr;

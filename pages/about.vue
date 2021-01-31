@@ -1,9 +1,9 @@
 <template>
 <div class="w-full bg-background">
      <!--logo-->
-  <Logo class="fixed top-0 left-0"/>
+  <Logo class="fixed top-0 left-0 z-50"/>
    <!--about-->
-  <div id="about" class="fixed font-bold h-10 text-center w-full text-white text-opacity-50">ABOUT</div>
+  <div id="about" class="fixed font-bold text-center w-full h-screen text-white text-opacity-50"><div class="relative margin-auto">ABOUT</div></div>
   <NavigationHome class="relative z-50"/>
   <figure class="border-primary border-t bg-white w-10/12 mx-auto"></figure>
 
@@ -55,6 +55,9 @@
   z-index:0;
   font-size: 25vw !important;
 }
+#about div{
+  top: 20%;
+}
 #intro img{
   transition: all 0.3s;
   filter: grayscale(1);
@@ -62,4 +65,5 @@
 #intro img:hover{
   filter: grayscale(0.4);
 }
+
 </style>
