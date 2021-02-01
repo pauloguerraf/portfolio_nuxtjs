@@ -4,11 +4,11 @@
     <NavigationHome class="relative z-50"/>
     <figure class="border-primary border-t bg-white w-10/12 mx-auto"></figure>
     <section class="relative flex justify-center items-center z-0">
-      <VideoComponent
+      <LazyVideoComponent
         id="video-1"
         source="videos/interactive.mp4"
         class="w-2/3 object-cover py-10"
-      ></VideoComponent>
+      />
     </section>
     <section class="w-10/12 mx-auto py-10">
       <figure class="border-primary border-t bg-black "></figure>
@@ -23,11 +23,11 @@
           </div>
         </div>
         <div class="md:w-1/3 w-9/12 flex flex-col justify-start self-start">
-          <VideoComponent
+          <LazyVideoComponent
           id="video-1"
           source="videos/steerbywire.mp4"
           class="w-full transform -rotate-6 object-cover md:py-0 py-10"
-        ></VideoComponent>
+        />
         </div>
       </div>
     </section>

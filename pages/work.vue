@@ -16,7 +16,10 @@
           <!-- <img class="rounded-full sm:w-3/4 lg:w-full lg:flex" src="profile.jpg"/> -->
       </div>
       <div class="lg:w-4/6 w-full md:py-16 py-8 z-10 text-white">
-      Throughout my carreer, I have been part of several projects that have allowed me to explore and build experiences around the boundaries of both <strong>physical and digital</strong> worlds. From websites to multimedia installations, AR, VR, robotics, traditional and experimental interfaces, I have had the opportunity to learn from many technologies and from some amazing professionals using them around the world.
+      Throughout my carreer, I have been part of several projects that have allowed me to explore and build experiences around the boundaries of both <strong>physical and digital</strong> worlds. From websites to multimedia installations, AR, VR, robotics, traditional and experimental interfaces, I have had the opportunity to learn from many technologies and from some amazing human beings using them around the world.
+      <br>
+      <br>
+      Curiosity helps me keep up to date with new tools and I am happy to keep learning in order to overcome the challenges presented by new projects.
       </div>
     </div>
 
