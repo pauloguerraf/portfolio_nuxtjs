@@ -63,6 +63,7 @@ css: ['~/assets/main.css'],
   build: {
   },
   googleFonts: {
+    display: 'swap',
     families: {
       Roboto: true,
       'Josefin+Sans': true,

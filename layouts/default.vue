@@ -17,7 +17,6 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  font-display: swap;
 }
 body{
   background-color: white;
