@@ -1300,10 +1300,10 @@
     webpack-node-externals "^2.5.2"
     webpackbar "^4.0.0"
 
-"@nuxtjs/axios@^5.12.5":
-  version "5.12.5"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.12.5.tgz#d4a1003052d21e54d93d97a895ca84f58e4bc8d9"
-  integrity sha512-KCZMLRZFYOKcGt9mKxJMH6UJMB6H6g+BF/YxXEYz3Urrf2U2XiNkj6rmBqgw0XLRY5XD9Wm8knTGp6955512fQ==
+"@nuxtjs/axios@^5.13.0":
+  version "5.13.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.13.0.tgz#e0771829fc093b1232ed0a94eae379fd64c7994d"
+  integrity sha512-ppTgvKENzXhz7Ro7uqDWVlFJfiaoYfDXlSbUwMIabPsTZOJ/sR3+366KNy7fE/PY0qjzFe4ftA8ZWjY2ZWWesA==
   dependencies:
     "@nuxtjs/proxy" "^2.1.0"
     axios "^0.21.1"
@@ -4390,7 +4390,7 @@ eslint-config-prettier@^7.2.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-7.2.0.tgz#f4a4bd2832e810e8cc7c1411ec85b3e85c0c53f9"
   integrity sha512-rV4Qu0C3nfJKPOAhFujFxB7RMP+URFyQqqOZW9DMRD7ZDTFyjaIlETU3xzHELt++4ugC0+Jm084HQYkkJe+Ivg==
 
-eslint-plugin-prettier@^3.8.3:
+eslint-plugin-prettier@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.3.1.tgz#7079cfa2497078905011e6f82e8dd8453d1371b7"
   integrity sha512-Rq3jkcFY8RYeQLgk2cCwuc0P7SEFwDravPhsJZOQ5N4YI4DSg50NyqJ/9gdZHzQlHf8MvafSesbNJCcP/FF6pQ==
