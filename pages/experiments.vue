@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-background">
+  <div class="w-full min-h-screen bg-background">
      <!--logo-->
     <Logo class="fixed top-0 left-0 z-50"/>
     <!--experiments-->
@@ -16,35 +16,35 @@
           <!-- <img class="rounded-full sm:w-3/4 lg:w-full lg:flex" src="profile.jpg"/> -->
       </div>
       <div class="lg:w-4/6 w-full md:py-16 py-8 z-10 text-white">
-      Throughout my carreer, I have been part of several projects that have allowed me to explore and build experiences around the boundaries of both <strong>physical and digital</strong> worlds. From websites to multimedia installations, AR, VR, robotics exhibits and experimental interfaces, I have had the opportunity to learn from a lot of technologies and from the professionals using them around the world.
+      A space to keep track of quick experimetns I make in order to grasp the new concepts I found on my learning journey.
       </div>
     </div>
 
     <!--history-->
     <ul class="flex flex-wrap py-10 z-50 relative">
       <li
-        v-for="article of articles"
-        :key="article.slug"
+        v-for="post of posts"
+        :key="post.slug"
         class="sm:w-full md:w-1/3 px-10 xs:mb-6 md:mb-12 text-white"
       >
           <NuxtLink
-            :to="{ name: 'blog-slug', params: { slug: article.slug } }"
+            :to="{ name: 'blog-slug', params: { slug: post.slug } }"
             class=" flex flex-col transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md "
           >
 
             <img
-              v-if="article.img"
+              v-if="post.img"
               class="w-full object-cover"
-              :src="article.img"
+              :src="post.img"
             />
 
             <div
               class="py-6 flex flex-col justify-between w-full"
             >
-              <h2 class="font-bold">{{ article.title }}</h2>
-              <p>by {{ article.description }}</p>
+              <h2 class="font-bold">{{ post.title }}</h2>
+              <p>by {{ post.description }}</p>
               <p class="font-bold text-gray-600 text-sm">
-                {{ article.description }}
+                {{ post.description }}
               </p>
             </div>
           </NuxtLink>
@@ -66,7 +66,7 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const articles = await $content('articles', params.slug)
+    const posts = await $content('posts', params.slug)
       .only(['title', 'description', 'img', 'slug', 'author'])
       .sortBy('createdAt', 'desc')
       .fetch()
@@ -75,7 +75,7 @@ export default {
       .sortBy('createdAt', 'asc')
       .fetch()
     return {
-      articles,
+      posts,
       tags
     }
   }

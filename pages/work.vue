@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-background">
+  <div class="w-full  min-h-screen bg-background">
      <!--logo-->
     <Logo class="fixed top-0 left-0 z-50"/>
     <!--about-->
@@ -16,10 +16,10 @@
           <!-- <img class="rounded-full sm:w-3/4 lg:w-full lg:flex" src="profile.jpg"/> -->
       </div>
       <div class="lg:w-4/6 w-full md:py-16 py-8 z-10 text-white">
-      Throughout my carreer, I have been part of several projects that have allowed me to explore and build experiences around the boundaries of both <strong>physical and digital</strong> worlds. From websites to multimedia installations, AR, VR, robotics, traditional and experimental interfaces, I have had the opportunity to learn from many technologies and from some amazing human beings using them around the world.
+      Throughout my carreer, I have been part of several projects that have allowed me to explore and build experiences around the boundaries of both <strong>physical and digital</strong> worlds. From websites to multimedia installations, AR, VR, robotics, traditional and experimental interfaces, I have had the opportunity to learn from many technologies and from some <strong>amazing human beings</strong> using them around the <strong>world</strong>.
       <br>
       <br>
-      Curiosity helps me keep up to date with new tools and I am happy to keep learning in order to overcome the challenges presented by new projects.
+      <strong>Curiosity</strong> helps me keep up to date with new tools and I am happy to keep learning in order to overcome the challenges presented by new projects.
       </div>
     </div>
 

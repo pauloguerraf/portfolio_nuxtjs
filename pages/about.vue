@@ -1,5 +1,5 @@
 <template>
-<div class="w-full bg-background">
+<div class="w-full min-h-screen bg-background">
      <!--logo-->
   <Logo class="fixed top-0 left-0 z-50"/>
    <!--about-->
