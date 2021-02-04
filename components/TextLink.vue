@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-link v-if="internal==true" :to="url" class="text-myyellow bg-transparent hover:text-myred py-4 font-bold text-md text-center stroke-current">
+    <nuxt-link v-if="internal==true" :to="url" class="py-4 text-center stroke-current">
         {{text}}
           <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 inline" viewBox="0 0 19.243 19.243">
           <g transform="translate(-8.379 -8.379)">
@@ -9,7 +9,7 @@
           </g>
         </svg>
     </nuxt-link>
-    <a v-else :href="url" class="text-myyellow bg-transparent hover:text-myred py-4 font-bold text-md text-center stroke-current">
+    <a v-else :href="url" class="bg-transparent py-4 text-center stroke-current">
         {{text}}
           <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 inline" viewBox="0 0 19.243 19.243">
           <g transform="translate(-8.379 -8.379)">

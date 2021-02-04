@@ -1,8 +1,5 @@
 <template>
-  <div class="w-full bg-background">
-    <Logo class="fixed top-0 left-0 z-50"/>
-    <NavigationHome class="relative z-50"/>
-    <figure class="border-primary border-t bg-white w-10/12 mx-auto"></figure>
+  <div class="w-full bg-white">
     <section class="relative flex justify-center items-center z-0">
       <LazyVideoComponent
         id="video-1"
@@ -11,12 +8,12 @@
       />
     </section>
     <section class="w-10/12 mx-auto py-10">
-      <figure class="border-primary border-t bg-black "></figure>
+      <figure class="border-myblue border-t"></figure>
       <div class="text-white font-bold text-4xl py-10">PLAYING WITH TECH<br>SINCE THE '80s</div>
       <div class="py-10 relative w-full flex flex-wrap-reverse justify-between sm:justify-center items-stretch">
         <div class="sm:w-2/3 w-full flex flex-col h-full justify-center items-center md:pr-20">
-          <p class="lg:text-4xl md:text-2xl text-2xl font-logo text-white">I
-            <strong>help</strong> brands overcome <strong>challenges</strong> of using new technologies, and enjoy the <strong>process</strong> of creating valuable <strong>interactive</strong> experiences together.
+          <p class="lg:text-4xl md:text-2xl text-2xl font-logo text-myblue">I
+            <strong>help</strong> brands overcome the <strong>challenges</strong> of using new technologies, and enjoy the <strong>process</strong> of creating valuable <strong>interactive</strong> experiences together.
           </p>
           <div class="ml-auto py-10">
             <ButtonLink url="/about" text="more about me"/>
@@ -32,17 +29,13 @@
       </div>
     </section>
     <section class="w-10/12 mx-auto">
-      <figure class="border-primary border-t bg-black "></figure>
-      <div class="text-white font-bold text-4xl py-20">FEATURED<br>COLLABORATIONS</div>
+      <figure class="border-myblue border-t"></figure>
+      <div class="text-myblue font-bold text-4xl py-20">FEATURED<br>COLLABORATIONS</div>
       <div class="relative w-full flex flex-wrap-reverse justify-around sm:justify-center items-center h-full">
       </div>
     </section>
     <div class="relative w-10/12 mx-auto z-50">
-      <figure class="border-primary border-t bg-white"></figure>
-      <div class="flex md:py-20 py-10 justify-between w-full flex-col sm:flex-row items-center">
-        <div class="flex text-white font-bold text-xl no-underline hover:text-myorange hover:underline"><a class="" href="/docs/paulo_guerra_f_cv2021.pdf">DOWNLOAD RESUME</a></div>
-        <Social class="flex sm:py-0 py-10"/>
-      </div>
+      <Footer/>
     </div>
   </div>
 </template>

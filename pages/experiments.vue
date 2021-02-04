@@ -1,12 +1,7 @@
 <template>
-  <div class="w-full min-h-screen bg-background">
-     <!--logo-->
-    <Logo class="fixed top-0 left-0 z-50"/>
+  <div class="w-full min-h-screen bg-white">
     <!--experiments-->
-    <div id="experiments" class="fixed font-bold text-center w-full h-screen text-white text-opacity-50"><div class="relative margin-auto">EXPERIMENTS</div></div>
-    <NavigationHome class="relative z-50"/>
-    <figure class="border-primary border-t bg-white w-10/12 mx-auto"></figure>
-
+    <div id="experiments" class="fixed font-bold text-center w-full h-screen text-myblue text-opacity-25"><div class="relative margin-auto">EXPERIMENTS</div></div>
     <!--group-->
   <div class="md:text-3xl text-2xl lg:px-40 md:px-36 px-20">
     <!--nav-->
@@ -15,7 +10,7 @@
       <div class="lg:w-2/6 w-full sm:order-2 flex justify-center lg:pl-10">
           <!-- <img class="rounded-full sm:w-3/4 lg:w-full lg:flex" src="profile.jpg"/> -->
       </div>
-      <div class="lg:w-4/6 w-full md:py-16 py-8 z-10 text-white">
+      <div class="lg:w-4/6 w-full md:py-16 py-8 z-10 text-myblue">
       A space to keep track of quick experimetns I make in order to grasp the new concepts I found on my learning journey.
       </div>
     </div>
@@ -25,7 +20,7 @@
       <li
         v-for="post of posts"
         :key="post.slug"
-        class="sm:w-full md:w-1/3 px-10 xs:mb-6 md:mb-12 text-white"
+        class="sm:w-full md:w-1/3 px-10 xs:mb-6 md:mb-12 text-myblue"
       >
           <NuxtLink
             :to="{ name: 'blog-slug', params: { slug: post.slug } }"
@@ -52,13 +47,7 @@
       </ul>
 
     <!--social-->
-      <figure class="border-primary border-t bg-white mx-auto"></figure>
-      <footer class="flex md:py-20 py-10 justify-between w-full flex-col sm:flex-row items-center">
-        <div class="flex text-white font-bold text-xl no-underline hover:text-myorange hover:underline">
-          <a class="" href="/docs/paulo_guerra_f_cv2021.pdf">DOWNLOAD RESUME</a>
-        </div>
-        <Social class="flex sm:py-0 py-10"/>
-      </footer>
+      <Footer/>
     </div>
   </div>
 </template>

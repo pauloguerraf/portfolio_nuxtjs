@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        mycyan: '#00FFC3',
+        mycadetblue: '#5F9EA0',
         myorange: '#FFA700',
         myblue: '#1f00b7',
         myyellow: '#DDFF00',

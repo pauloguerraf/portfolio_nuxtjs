@@ -12,20 +12,25 @@ export default {
 </script>
 <style>
 #logo-txt{
-  -webkit-text-fill-color: #5137d4;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #1f00b7;
   -webkit-transition: -webkit-text-fill-color .2s ease-out;
   transition: fill-color .2s ease-out;
   writing-mode: vertical-lr;
   text-orientation: sideways;
 }
 #logo-txt:hover{
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #FFFFFF;
+  -webkit-text-fill-color: #1f00b7;
+  -webkit-text-stroke: 1px #1f00b7;
 }
 @media (min-width: 768px) {
   #logo-txt:hover{
+    -webkit-text-fill-color: #1f00b7;
+    -webkit-text-stroke: 2px #1f00b7;
+  }
+  #logo-txt{
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px #FFFFFF;
+    -webkit-text-stroke: 1px #1f00b7;
   }
 }
 </style>
