@@ -15,8 +15,11 @@
           <p class="lg:text-4xl md:text-2xl text-2xl font-logo text-myblue">I
             <strong>help</strong> brands overcome the <strong>challenges</strong> of using new technologies, and enjoy the <strong>process</strong> of creating valuable <strong>interactive</strong> experiences together.
           </p>
-          <div class="ml-auto py-10">
-            <ButtonLink url="/about" text="more about me"/>
+          <p class="ml-auto py-10">
+            <TextLink url="/about" :internal=true text="read more" class="font-bold hover:text-myblue text-orange-500 text-3xl"/>
+          </p>
+          <div >
+
           </div>
         </div>
         <div class="md:w-1/3 w-9/12 flex flex-col justify-start self-start">

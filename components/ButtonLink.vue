@@ -1,9 +1,11 @@
 <template>
-  <nuxt-link :to="url">
-    <div class="text-white bg-transparent hover:bg-myyellow hover:border-myyellow hover:text-myblue py-4 font-bold text-md border-white border-2 px-6 rounded-full text-center stroke-current">
-      {{text}}
-    </div>
-  </nuxt-link>
+  <div class="border-2 rounded-full text-center stroke-current">
+    <nuxt-link :to="url">
+      <div class="px-6 py-4">
+        {{text}}
+      </div>
+    </nuxt-link>
+  </div>
 </template>
 
 <script>

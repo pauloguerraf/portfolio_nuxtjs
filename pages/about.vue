@@ -19,13 +19,13 @@
     <!--history-->
     <div id="history" class="grid md:grid-cols-3 grid-cols-1 text-myblue">
       <div class="md:py-16 py-8 text-2xl md:px-8 px-4 border-b md:border-b-0 z-10">
-        <div>I have taught introductory and advanced Physical Computing and Interactive Media classes at <TextLink url="https://www.udla.edu.ec" internal=false text="Universidad de las Américas" class="font-bold hover:text-myblue text-orange-500 text-2xl inline"/> for the last 7 years. As a professor, I have led academic projects and contributed to the development of the creative programming and interactive media <strong>community</strong> in Ecuador.</div>
+        <div>I have taught introductory and advanced Physical Computing and Interactive Media classes at <TextLink url="https://www.udla.edu.ec" :internal=false text="Universidad de las Américas" class="font-bold hover:text-myblue text-orange-500 text-2xl inline"/> for the last 7 years. As a professor, I have led academic projects and contributed to the development of the creative programming and interactive media <strong>community</strong> in Ecuador.</div>
       </div>
       <div class="md:py-16 py-8 text-2xl md:px-8 px-4 border-b md:border-b-0 md:border-l md:border-r z-10">
-        <div>In 2018, I co-founded <TextLink url="https://nidointeractive.com" internal=false text="NIDO Interactive" class="font-bold hover:text-myblue text-orange-500 text-2xl inline"/>, a company focused on providing quality digital services to clients in Ecuador, Brazil and USA. Since its beginning, NIDO has built websites and developed mobile, AR and VR experiencies, for more than 50 clients. I have been <strong>responsible</strong> for selecting the technologies for and supervising the development of such projects.</div>
+        <div>In 2018, I co-founded <TextLink url="https://nidointeractive.com" :internal=false text="NIDO Interactive" class="font-bold hover:text-myblue text-orange-500 text-2xl inline"/>, a company focused on providing quality digital services to clients in Ecuador, Brazil and USA. Since its beginning, NIDO has built websites and developed mobile, AR and VR experiencies, for more than 50 clients. I have been <strong>responsible</strong> for selecting the technologies for and supervising the development of such projects.</div>
       </div>
       <div class="md:py-16 py-8 text-2xl md:px-8 px-4 z-10">
-        <div>NuxtJS, WordPress, ThreeJS, A-Frame, Processing, Unity, Unreal Engine, Qt, openFrameworks, Arduino, Raspberry Pi, Resolume Arena, among others, are some of the <strong>tools</strong> I've had the opportunity to become familiar with and use on client projects. Find out more about some of my projects on the <TextLink url="/work" internal=true text="work" class="font-bold hover:text-myblue text-orange-500 text-2xl inline"/> section.</div>
+        <div>NuxtJS, WordPress, ThreeJS, A-Frame, Processing, Unity, Unreal Engine, Qt, openFrameworks, Arduino, Raspberry Pi, Resolume Arena, among others, are some of the <strong>tools</strong> I've had the opportunity to become familiar with and use on client projects. Find out more about some of my projects on the <TextLink url="/work" :internal=true text="work" class="font-bold hover:text-myblue text-orange-500 text-2xl inline"/> section.</div>
       </div>
     </div>
 
