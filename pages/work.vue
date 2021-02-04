@@ -28,7 +28,7 @@
       >
           <NuxtLink
             :to="{ name: 'blog-slug', params: { slug: article.slug } }"
-            class=" flex flex-col transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md "
+            class=" flex flex-col transition-shadow duration-150 ease-in-out shadow-md hover:shadow-xl "
           >
 
             <img
@@ -38,7 +38,7 @@
             />
 
             <div
-              class="py-6 flex flex-col justify-between w-full"
+              class="p-6 flex flex-col justify-between w-full"
             >
               <h2 class="font-bold">{{ article.title }}</h2>
               <p>by {{ article.description }}</p>

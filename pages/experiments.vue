@@ -11,35 +11,35 @@
           <!-- <img class="rounded-full sm:w-3/4 lg:w-full lg:flex" src="profile.jpg"/> -->
       </div>
       <div class="lg:w-4/6 w-full md:py-16 py-8 z-10 text-myblue">
-      A space to keep track of quick experimetns I make in order to grasp the new concepts I found on my learning journey.
+      A space to keep track of quick experiments I make in order to grasp the new concepts and learn new things.
       </div>
     </div>
 
     <!--history-->
     <ul class="flex flex-wrap py-10 z-50 relative">
       <li
-        v-for="post of posts"
-        :key="post.slug"
+        v-for="experiment of experiments"
+        :key="experiment.slug"
         class="sm:w-full md:w-1/3 px-10 xs:mb-6 md:mb-12 text-myblue"
       >
           <NuxtLink
-            :to="{ name: 'blog-slug', params: { slug: post.slug } }"
-            class=" flex flex-col transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md "
+            :to="{ name: 'blog-slug', params: { slug: experiment.slug } }"
+            class=" flex flex-col transition-shadow duration-150 ease-in-out shadow-md hover:shadow-xl "
           >
 
             <img
-              v-if="post.img"
+              v-if="experiment.img"
               class="w-full object-cover"
-              :src="post.img"
+              :src="experiment.img"
             />
 
             <div
-              class="py-6 flex flex-col justify-between w-full"
+              class="p-6 flex flex-col justify-between w-full"
             >
-              <h2 class="font-bold">{{ post.title }}</h2>
-              <p>by {{ post.description }}</p>
+              <h2 class="font-bold">{{ experiment.title }}</h2>
+              <p>by {{ experiment.description }}</p>
               <p class="font-bold text-gray-600 text-sm">
-                {{ post.description }}
+                {{ experiment.description }}
               </p>
             </div>
           </NuxtLink>
@@ -55,7 +55,7 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const posts = await $content('posts', params.slug)
+    const experiments = await $content('experiments', params.slug)
       .only(['title', 'description', 'img', 'slug', 'author'])
       .sortBy('createdAt', 'desc')
       .fetch()
@@ -64,14 +64,14 @@ export default {
       .sortBy('createdAt', 'asc')
       .fetch()
     return {
-      posts,
+      experiments,
       tags
     }
   }
 }
 </script>
 
-<style class="postcss">
+<style>
 .article-card {
   border-radius: 8px;
 }

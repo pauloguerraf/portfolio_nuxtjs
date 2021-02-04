@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-link v-if="internal==true" :to="url" class="py-4 text-center stroke-current">
+    <nuxt-link v-if="internal" :to="url" class="py-4 text-center stroke-current">
         {{text}}
           <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 inline" viewBox="0 0 19.243 19.243">
           <g transform="translate(-8.379 -8.379)">
@@ -34,7 +34,7 @@
       },
       internal:{
         type: Boolean,
-        default: true
+        default: true,
       }
     }
   }

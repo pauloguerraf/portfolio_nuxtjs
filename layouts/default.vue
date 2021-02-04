@@ -1,10 +1,8 @@
 <template>
     <div>
-      <!--logo-->
       <Logo class="fixed top-0 left-0 z-50"/>
       <NavigationHome class="relative z-50"/>
       <figure class="border-t border-myblue w-10/12 mx-auto"></figure>
-      <!--<Stage/>-->
       <Nuxt />
     </div>
 </template>
