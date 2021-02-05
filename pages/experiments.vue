@@ -11,7 +11,7 @@
           <!-- <img class="rounded-full sm:w-3/4 lg:w-full lg:flex" src="profile.jpg"/> -->
       </div>
       <div class="lg:w-4/6 w-full md:py-16 py-8 z-10 text-myblue">
-      A place to keep track of quick experiments I make in order to grasp new concepts.
+      A place to keep track of experiments I make in order to grasp new concepts.
       </div>
     </div>
 
