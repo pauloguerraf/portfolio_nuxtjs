@@ -16,7 +16,7 @@
             <strong>help</strong> brands overcome the <strong>challenges</strong> of using new technologies, and enjoy the <strong>process</strong> of creating valuable <strong>interactive</strong> experiences together.
           </p>
           <p class="ml-auto py-10">
-            <TextLink url="/about" :internal=true text="read more" class="font-bold hover:text-myblue text-orange-500 text-3xl"/>
+            <TextLink url="/about" :internal=true text="read more" class="font-bold hover:text-myyellow text-orange-500 text-3xl"/>
           </p>
           <div >
 
