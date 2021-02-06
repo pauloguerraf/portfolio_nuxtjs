@@ -1,5 +1,5 @@
 ---
-title: Museo Casa del Alabado
+title: Casa del Alabado
 description: This is a description for the article about me
 img: /projects_images/alabado_website/poster.jpg
 alt: nice image
