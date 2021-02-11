@@ -24,7 +24,7 @@
       <li
         v-for="article of articles"
         :key="article.slug"
-        class="lg:w-1/4 md:w-1/3 sm:px-6 py-6 sm:w-1/2 text-myblue"
+        class="lg:w-1/4 md:w-1/3 sm:px-6 py-6 sm:w-1/2 text-myblue card"
       >
           <NuxtLink
             :to="{ name: 'blog-slug', params: { slug: article.slug } }"
@@ -75,16 +75,18 @@ export default {
 }
 </script>
 
-<style class="postcss">
-.article-card {
-  border-radius: 8px;
+<style>
+.card{
+  background-color: rgba(255, 255, 255, 0.2);
 }
-.article-card a {
-  background-color: #fff;
-  border-radius: 8px;
-}
-.article-card img div {
+.card img div {
   border-radius: 8px 0 0 8px;
+}
+.card img{
+  filter:grayscale(1.0);
+}
+.card:hover img{
+  filter:grayscale(0.0);
 }
 #work{
   opacity:0.2;

@@ -11,7 +11,7 @@
           <LazyVideoComponent
           id="video-1"
           source="videos/experiments.mp4"
-          class="w-full transform rotate-6 object-cover shadow-sm"
+          class="w-full transform rotate-6 object-cover shadow-sm border-gray border"
         />
       </div>
       <div class="lg:w-4/6 w-full md:py-10 py-8 z-10 text-myblue">
@@ -24,7 +24,7 @@
       <li
         v-for="experiment of experiments"
         :key="experiment.slug"
-        class="sm:w-full md:w-1/3 px-10 xs:mb-6 md:mb-12 text-myblue"
+        class="lg:w-1/4 md:w-1/3 sm:px-6 py-6 sm:w-1/2 text-myblue card"
       >
           <NuxtLink
             :to="{ name: 'blog-slug', params: { slug: experiment.slug } }"
@@ -37,12 +37,12 @@
               :src="experiment.img"
             />
 
-            <div
-              class="p-6 flex flex-col justify-between w-full"
+           <div
+              class="lg:p-6 p-4 flex flex-col justify-between w-full"
             >
-              <h2 class="font-bold">{{ experiment.title }}</h2>
-              <p>by {{ experiment.description }}</p>
-              <p class="font-bold text-gray-600 text-sm">
+              <div class="font-bold md:text-xl text-2xl">{{ experiment.title }}</div>
+              <p class="sm:text-xl text-md font-normal">by {{ experiment.description }}</p>
+              <p class="font-semibold text-gray-600 text-sm">
                 {{ experiment.description }}
               </p>
             </div>
@@ -76,15 +76,17 @@ export default {
 </script>
 
 <style>
-.article-card {
-  border-radius: 8px;
+.card{
+  background-color: rgba(255, 255, 255, 0.2);
 }
-.article-card a {
-  background-color: #fff;
-  border-radius: 8px;
-}
-.article-card img div {
+.card img div {
   border-radius: 8px 0 0 8px;
+}
+.card img{
+  filter:grayscale(1.0);
+}
+.card:hover img{
+  filter:grayscale(0.0);
 }
 #experiments{
   opacity:0.2;
