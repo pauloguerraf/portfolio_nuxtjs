@@ -15,7 +15,7 @@
         />
       </div>
       <div class="lg:w-4/6 w-full md:py-10 py-8 z-10 text-myblue">
-      A place to keep track of different experiments I have made in order to learn new things.
+      A place to keep track of the different experiments I have made along my learning journey.
       </div>
     </div>
     <figure class="border-myblue border-t"></figure>
