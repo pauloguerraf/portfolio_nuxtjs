@@ -11,20 +11,20 @@
       <!-- <div class="lg:w-2/6 w-full sm:order-2 flex justify-center lg:pl-10">
            <img class="rounded-full sm:w-3/4 lg:w-full lg:flex" src="profile.jpg"/>
       </div> -->
-      <div class="w-full md:py-16 py-8 z-10 text-myblue">
+      <div class="w-full md:py-10 py-8 z-10 text-myblue">
       Throughout my carreer, I have been part of several projects that have allowed me to explore and build experiences around the boundaries of both <strong>physical and digital</strong> worlds. From websites to multimedia installations, AR, VR, robotics, traditional and experimental interfaces, I have had the opportunity to learn from many technologies and from some <strong>amazing human beings</strong> using them around the <strong>world</strong>.
       <br>
       <br>
       <strong>Curiosity</strong> helps me keep up to date with new tools and I am always happy to keep learning in order to overcome the challenges presented by new projects.
       </div>
     </div>
-
+    <figure class="border-myblue border-t"></figure>
     <!--history-->
     <ul class="flex flex-wrap py-10 z-50 relative">
       <li
         v-for="article of articles"
         :key="article.slug"
-        class="md:w-1/3 sm:px-6 py-6 sm:w-1/2 text-myblue"
+        class="lg:w-1/4 md:w-1/3 sm:px-6 py-6 sm:w-1/2 text-myblue"
       >
           <NuxtLink
             :to="{ name: 'blog-slug', params: { slug: article.slug } }"

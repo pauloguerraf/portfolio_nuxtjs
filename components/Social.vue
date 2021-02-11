@@ -37,20 +37,10 @@ export default {
   border-radius: 0%;
   border-width: 0px;
   background:#fff;
-  border-color:#1f00b7;
-
 }
 .social-link:hover svg{
   color:#33CA7F;
-  border-radius: 50%;
-  /*border-color:rgb(217, 255, 0, 0.65);*/
-  border-color:#1f00b7;
-  border-width: 1px;
-  background: #1f00b7;
-  transition:
-  border-radius 0.1s linear,
-  border-color 0.3s linear,
-  border-width 0.1s linear,
-  color 0.1s linear;
+  transform: scale(1.2);
+  transition: all 0.2s linear;
 }
 </style>

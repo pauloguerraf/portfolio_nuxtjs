@@ -6,19 +6,19 @@
   <div class="md:text-3xl text-2xl lg:px-40 md:px-36 px-20">
     <!--nav-->
     <!--intro-->
-    <div id="intro" class="w-full py-12 lg:flex md:px-6 items-center z-10">
-      <div class="lg:w-2/6 w-full sm:order-2 flex justify-center md:py-6 py-10 lg:pl-10">
+    <div id="intro" class="w-full py-12 lg:flex md:px-6 items-center justify-between z-10">
+      <div class="lg:w-1/4 w-full sm:order-2 flex justify-center md:py-6 py-10 lg:pl-10">
           <LazyVideoComponent
           id="video-1"
           source="videos/experiments.mp4"
           class="w-full transform rotate-6 object-cover shadow-sm"
         />
       </div>
-      <div class="lg:w-4/6 w-full md:py-16 py-8 z-10 text-myblue">
+      <div class="lg:w-4/6 w-full md:py-10 py-8 z-10 text-myblue">
       A place to keep track of different experiments I have made in order to learn new things.
       </div>
     </div>
-
+    <figure class="border-myblue border-t"></figure>
     <!--history-->
     <ul class="flex flex-wrap py-10 z-50 relative">
       <li
