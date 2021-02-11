@@ -1,16 +1,11 @@
 <template>
-  <article
-    class="flex lg:h-screen w-screen lg:overflow-hidden xs:flex-col lg:flex-row"
-  >
-    <div class="relative lg:w-1/2 xs:w-full xs:h-84 lg:h-full post-left">
-      <img
-        :src="article.img"
-        :alt="article.alt"
-        class="absolute h-full w-full object-cover"
-      />
-      <div class="overlay"></div>
-      <div class="absolute top-32 left-32 text-white">
-        <NuxtLink to="/"><Logo /></NuxtLink>
+  <div class="w-full min-h-screen bg-white">
+    <!--background-->
+    <div id="title" class="mx-auto fixed font-bold text-center w-full h-screen text-myblue text-opacity-25">{{ article.title }}</div>
+
+    <!--info-->
+    <div class="md:text-4xl text-3xl lg:px-40 md:px-36 px-20 text-myblue">
+      <div class="w-full h-full">
         <div class="mt-16 -mb-3 flex uppercase text-sm">
           <p class="mr-3">
             {{ formatDate(article.updatedAt) }}
@@ -18,69 +13,24 @@
           <span class="mr-3">•</span>
           <p>{{ article.description }}</p>
         </div>
-        <h1 class="text-6xl font-bold">{{ article.title }}</h1>
-        <span v-for="(tag, id) in article.tags" :key="id">
-          <NuxtLink :to="`/blog/tag/${tags[tag].slug}`">
-            <span
-              class="truncate uppercase tracking-wider font-medium text-ss px-2 py-1 rounded-full mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear"
-            >
-              {{ tags[tag].name }}
-            </span>
-          </NuxtLink>
-        </span>
+        <div class="text-6xl font-bold">{{ article.title }}</div>
       </div>
-      <div class="flex absolute top-3rem right-3rem">
-        <NuxtLink
-          to="/"
-          class="mr-8 self-center text-white font-bold hover:underline"
-        >
-          All articles
-        </NuxtLink>
-        <a
-          href="https://nuxtjs.org/blog/creating-blog-with-nuxt-content"
-          class="mr-8 self-center text-white font-bold hover:underline"
-        >
-          Tutorial
-        </a>
-        <AppSearchInput />
+
+      <!--text-->
+      <div id="intro" class="w-full py-8 lg:flex items-center z-10">
+        <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsa eum optio incidunt sunt molestias consequatur iusto minima velit quasi quae libero beatae, possimus veritatis animi pariatur vel maiores eligendi.
+        </div>
       </div>
+      <!--social-->
+      <Footer/>
     </div>
-    <div
-      class="relative xs:py-8 xs:px-8 lg:py-32 lg:px-16 lg:w-1/2 xs:w-full h-full overflow-y-scroll markdown-body post-right custom-scroll"
-    >
-      <h1 class="font-bold text-4xl">{{ article.title }}</h1>
-      <p>{{ article.description }}</p>
-      <p class="pb-4">Post last updated: {{ formatDate(article.updatedAt) }}</p>
-      <!-- table of contents -->
-      <nav class="pb-6">
-        <ul>
-          <li
-            v-for="link of article.toc"
-            :key="link.id"
-            :class="{
-              'font-semibold': link.depth === 2
-            }"
-          >
-            <nuxtLink
-              :to="`#${link.id}`"
-              class="hover:underline"
-              :class="{
-                'py-2': link.depth === 2,
-                'ml-2 pb-2': link.depth === 3
-              }"
-              >{{ link.text }}</nuxtLink
-            >
-          </li>
-        </ul>
-      </nav>
-      <!-- content from markdown -->
-      <nuxt-content :document="article" />
-      <!-- content author component -->
-      <author :author="article.author" />
-      <!-- prevNext component -->
-      <PrevNext :prev="prev" :next="next" class="mt-8" />
-    </div>
-  </article>
+  </div>
+
+
+
+
+
 </template>
 <script>
 export default {
@@ -112,16 +62,12 @@ export default {
 }
 </script>
 <style>
-.nuxt-content p {
-  margin-bottom: 20px;
+#title{
+  opacity: 0.2;
+  z-index: 0;
+  top: 20%;
+  left: 0%;
+  transform-origin: 50% 50%;
+  font-size: 15vw !important;
 }
-.nuxt-content h2 {
-  font-weight: bold;
-  font-size: 28px;
-}
-.nuxt-content h3 {
-  font-weight: bold;
-  font-size: 22px;
-}
-
 </style>

@@ -24,7 +24,7 @@
       <li
         v-for="article of articles"
         :key="article.slug"
-        class="sm:w-full md:w-1/3 md:px-6 py-6 text-myblue"
+        class="md:w-1/3 sm:px-6 py-6 sm:w-1/2 text-myblue"
       >
           <NuxtLink
             :to="{ name: 'blog-slug', params: { slug: article.slug } }"
@@ -38,10 +38,10 @@
             />
 
             <div
-              class="p-6 flex flex-col justify-between w-full"
+              class="lg:p-6 p-4 flex flex-col justify-between w-full"
             >
-              <h2 class="font-bold">{{ article.title }}</h2>
-              <p>by {{ article.description }}</p>
+              <div class="font-bold md:text-xl text-2xl">{{ article.title }}</div>
+              <p class="sm:text-xl text-md">by {{ article.description }}</p>
               <p class="font-bold text-gray-600 text-sm">
                 {{ article.description }}
               </p>

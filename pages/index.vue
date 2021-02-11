@@ -33,21 +33,24 @@
     </section>
     <section class="w-10/12 mx-auto">
       <figure class="border-myblue border-t"></figure>
-      <div class="text-myblue font-bold text-4xl py-20">FEATURED<br>COLLABORATIONS</div>
-      <div class="relative w-full flex flex-wrap-reverse justify-start h-full py-10 gap-8">
-        <div class="w-1/4 shadow-md p-8">
+      <div class="text-myblue font-bold text-4xl pt-10">FEATURED<br>COLLABORATIONS</div>
+      <div class="w-full flex flex-wrap h-full">
+        <div class="lg:w-1/4 sm:w-1/2 w-full p-8">
           <img class="w-full py-8 mx-auto" src="/svgs/motomichi.svg">
           <p class="text-myblue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quasi, quisquam sunt aliquam nam sapiente laborum cumque totam recusandae facere ad impedit exercitationem a voluptatibus libero culpa facilis, veniam eum?</p>
         </div>
-        <div class="w-1/4 shadow-md p-8">
-          <img class="w-full py-8 mx-auto" src="/svgs/pnud.svg">
-          <p class="text-myblue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quasi, quisquam sunt aliquam nam sapiente laborum cumque totam recusandae facere ad impedit exercitationem a voluptatibus libero culpa facilis, veniam eum?</p>
-        </div>
-        <div class="w-1/4 shadow-md p-8">
+        <div class="lg:w-1/4 sm:w-1/2 w-full p-8">
           <img class="w-full py-8 mx-auto" src="/svgs/telefonica.svg">
           <p class="text-myblue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quasi, quisquam sunt aliquam nam sapiente laborum cumque totam recusandae facere ad impedit exercitationem a voluptatibus libero culpa facilis, veniam eum?</p>
         </div>
-
+        <div class="lg:w-1/4 sm:w-1/2 w-full p-8">
+          <img class="w-full py-8 mx-auto" src="/svgs/pnud.svg">
+          <p class="text-myblue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quasi, quisquam sunt aliquam nam sapiente laborum cumque totam recusandae facere ad impedit exercitationem a voluptatibus libero culpa facilis, veniam eum?</p>
+        </div>
+        <div class="lg:w-1/4 sm:w-1/2 w-full p-8">
+          <img class="w-full py-8 mx-auto" src="/svgs/presidencia.svg">
+          <p class="text-myblue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quasi, quisquam sunt aliquam nam sapiente laborum cumque totam recusandae facere ad impedit exercitationem a voluptatibus libero culpa facilis, veniam eum?</p>
+        </div>
       </div>
     </section>
     <div class="relative w-10/12 mx-auto z-50">
