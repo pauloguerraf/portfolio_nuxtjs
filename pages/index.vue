@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-white">
+  <div class="w-full bg-white z-10">
     <section class="relative flex justify-center items-center z-0">
       <LazyVideoComponent
         id="video-1"

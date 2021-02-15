@@ -1,7 +1,7 @@
 <template>
     <div>
       <Logo class="fixed top-0 left-0 z-50"/>
-      <NavigationHome class="relative z-50"/>
+      <NavigationHome class="relative z-40"/>
       <figure class="border-t border-myblue w-10/12 mx-auto"></figure>
       <Nuxt />
     </div>
