@@ -37,19 +37,19 @@
       <div class="w-full flex flex-wrap h-full">
         <div class="lg:w-1/4 sm:w-1/2 w-full p-8">
           <img class="w-full py-8 mx-auto" src="/svgs/motomichi.svg">
-          <p class="text-myblue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quasi, quisquam sunt aliquam nam sapiente laborum cumque totam recusandae facere ad impedit exercitationem a voluptatibus libero culpa facilis, veniam eum?</p>
+          <p class="text-myblue"></p>
         </div>
         <div class="lg:w-1/4 sm:w-1/2 w-full p-8">
           <img class="w-full py-8 mx-auto" src="/svgs/telefonica.svg">
-          <p class="text-myblue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quasi, quisquam sunt aliquam nam sapiente laborum cumque totam recusandae facere ad impedit exercitationem a voluptatibus libero culpa facilis, veniam eum?</p>
+          <p class="text-myblue"></p>
         </div>
         <div class="lg:w-1/4 sm:w-1/2 w-full p-8">
           <img class="w-full py-8 mx-auto" src="/svgs/pnud.svg">
-          <p class="text-myblue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quasi, quisquam sunt aliquam nam sapiente laborum cumque totam recusandae facere ad impedit exercitationem a voluptatibus libero culpa facilis, veniam eum?</p>
+          <p class="text-myblue"></p>
         </div>
         <div class="lg:w-1/4 sm:w-1/2 w-full p-8">
           <img class="w-full py-8 mx-auto" src="/svgs/presidencia.svg">
-          <p class="text-myblue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quasi, quisquam sunt aliquam nam sapiente laborum cumque totam recusandae facere ad impedit exercitationem a voluptatibus libero culpa facilis, veniam eum?</p>
+          <p class="text-myblue"></p>
         </div>
       </div>
     </section>
