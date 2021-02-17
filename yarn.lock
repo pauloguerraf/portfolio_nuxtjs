@@ -4390,7 +4390,7 @@ eslint-config-prettier@^7.2.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-7.2.0.tgz#f4a4bd2832e810e8cc7c1411ec85b3e85c0c53f9"
   integrity sha512-rV4Qu0C3nfJKPOAhFujFxB7RMP+URFyQqqOZW9DMRD7ZDTFyjaIlETU3xzHELt++4ugC0+Jm084HQYkkJe+Ivg==
 
-eslint-plugin-prettier@^3.8.3:
+eslint-plugin-prettier@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.3.1.tgz#7079cfa2497078905011e6f82e8dd8453d1371b7"
   integrity sha512-Rq3jkcFY8RYeQLgk2cCwuc0P7SEFwDravPhsJZOQ5N4YI4DSg50NyqJ/9gdZHzQlHf8MvafSesbNJCcP/FF6pQ==
@@ -6671,10 +6671,10 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-locomotive-scroll@^4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/locomotive-scroll/-/locomotive-scroll-4.0.6.tgz#74782872ae9c242f51d912587be7ad5d5f0ed02b"
-  integrity sha512-dejc1S0kR/ddO+R52nUxtSp/2E0ejUprIoz2NnQaUiNajTCPlT1IbDn8KRTn9O79FHDuiUSLDP8cKiwwvOqWXA==
+locomotive-scroll@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/locomotive-scroll/-/locomotive-scroll-4.0.7.tgz#d57f26a3c622205d47ef0762c1a4441870a35a32"
+  integrity sha512-s5it/sZ6rrNj+dweYpdQsnvS1PhEvnSwxEB80TS6qbooEZfG+5eRGPUopCZvxLqLVjaYRb3hQIhj6xXGDGnSYA==
   dependencies:
     "@modularbp/gulp-watch" "^1.0.5"
     bezier-easing "^2.1.0"
