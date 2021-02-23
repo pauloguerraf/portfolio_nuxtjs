@@ -13,7 +13,7 @@
       <div class="py-10 relative w-full flex flex-wrap-reverse justify-between sm:justify-center items-stretch">
         <div class="sm:w-2/3 w-full flex flex-col h-full justify-center items-center md:pr-20">
           <p class="lg:text-4xl md:text-2xl text-2xl font-logo text-myblue">I
-            <strong>help</strong> brands overcome the <strong>challenges</strong> of using new technologies, and enjoy the <strong>process</strong> of creating valuable <strong>interactive</strong> experiences together.
+            <strong>help</strong> brands overcome the <strong>challenges</strong> of using new technologies, and enjoy the <strong>process</strong> of creating <strong>valuable </strong> interactive <strong>experiences</strong> together.
           </p>
           <p class="ml-auto py-10">
             <TextLink url="/about" :internal=true text="read more" class="font-bold hover:text-myyellow text-orange-500 text-3xl"/>
