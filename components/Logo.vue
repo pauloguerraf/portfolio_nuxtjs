@@ -1,13 +1,17 @@
 <template>
- <nuxt-link to="/"><div id="logo-txt" class="leading-none font-bold text-left lg:text-7xl md:text-5xl sm:text-4xl text-3xl transform -rotate-180 translate-x-1/4 translate-y-0 py-4">pauloguerraf.dev</div></nuxt-link>
+ <nuxt-link to="/">
+ <div id="logo-txt" v-if="rotation==0" class="leading-none font-bold text-left lg:text-7xl md:text-5xl sm:text-4xl text-3xl transform -rotate-90">pauloguerraf.dev</div>
+ <div id="logo-txt" v-else class="leading-none font-bold text-left lg:text-7xl md:text-5xl sm:text-4xl text-3xl transform -rotate-180 translate-x-1/4 translate-y-0 py-4">pauloguerraf.dev</div>
+ </nuxt-link>
 </template>
 <script>
 export default {
-  data(){
-    return{
-
-    }
-  }
+   props: {
+      rotation:{
+        type: Number,
+        default: -90,
+      }
+   }
 }
 </script>
 <style>
