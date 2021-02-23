@@ -26,7 +26,7 @@ export default {
 @media (min-width: 768px) {
   #logo-txt:hover{
     -webkit-text-fill-color: #1f00b7;
-    -webkit-text-stroke: 2px #1f00b7;
+    -webkit-text-stroke: 1px #1f00b7;
   }
   #logo-txt{
     -webkit-text-fill-color: transparent;
