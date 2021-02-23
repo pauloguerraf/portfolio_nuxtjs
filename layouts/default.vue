@@ -5,7 +5,7 @@
       <figure class="border-t border-myblue w-10/12 mx-auto"></figure>
       <Nuxt />
     </div>
-    <div v-else class="w-screen flex justify-center">
+    <div v-else class="flex w-screen h-screen justify-center items-center">
       <Logo id="intro" :rotation="0"/>
     </div>
 </template>
