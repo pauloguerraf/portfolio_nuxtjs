@@ -6,17 +6,29 @@
       <Nuxt />
     </div>
     <div v-else class="w-screen flex justify-center">
-      <Logo :rotation="0"/>
+      <Logo id="intro" :rotation="0"/>
     </div>
 </template>
 <script>
+import anime from 'animejs'
+
 export default {
+
   props: {
       live:{
         type: Boolean,
         default: false,
       }
-   }
+   },
+   mounted(){
+     anime({
+        targets:'#intro',
+        opacity: [{value:['0', '1'], duration: 500}],
+        translateY: [{value:[100, 0], duration: 750}],
+        easing: 'easeInCubic',
+        delay: 1000
+      })
+  },
 }
 </script>
 <style>
