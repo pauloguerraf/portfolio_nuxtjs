@@ -1,10 +1,9 @@
 ---
 title: Say What I Say
 description: This is a description for the article about me
+role: Tech Lead
 img: /projects_images/saywhatisay/poster.jpg
 alt: nice image
-tags:
-  - web development
 ---
 
 ## There is just so much to write about me. Where do I start?

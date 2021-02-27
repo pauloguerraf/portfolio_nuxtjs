@@ -4,9 +4,13 @@
       <NavigationHome class="relative z-40"/>
       <figure class="border-t border-myblue w-10/12 mx-auto"></figure>
       <Nuxt />
+      <div class="h-full"></div>
+      <div class="relative w-10/12 mx-auto z-50">
+        <Footer/>
+      </div>
     </div>
     <div v-else class="flex w-screen h-screen justify-center items-center">
-      <Logo id="intro" :rotation="0"/>
+      <Logo id="intro-logo" :rotation="0"/>
     </div>
 </template>
 <script>
@@ -17,14 +21,15 @@ export default {
   props: {
       live:{
         type: Boolean,
-        default: false,
+        default: true,
       }
    },
    mounted(){
      anime({
-        targets:'#intro',
+        targets:'#intro-logo',
         opacity: [{value:['0', '1'], duration: 500}],
         translateY: [{value:[100, 0], duration: 750}],
+        rotate: [{value:[90, 0], duration: 750, delay: 750}],
         easing: 'easeInCubic',
         delay: 1000
       })

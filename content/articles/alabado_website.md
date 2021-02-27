@@ -1,10 +1,9 @@
 ---
 title: Casa del Alabado
 description: This is a description for the article about me
+role: Front End Developer
 img: /projects_images/alabado_website/poster.jpg
 alt: nice image
-tags:
-  - web development
 ---
 
 ## There is just so much to write about me. Where do I start?

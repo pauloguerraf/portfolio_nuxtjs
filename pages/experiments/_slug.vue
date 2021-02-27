@@ -9,7 +9,6 @@
   export default {
     async asyncData({ $content, params }) {
       const experiment = await $content('experiments', params.slug).fetch()
-
       return { experiment }
     },
     methods: {

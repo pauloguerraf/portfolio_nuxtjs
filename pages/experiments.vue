@@ -15,7 +15,7 @@
         />
       </div>
       <div class="lg:w-4/6 w-full md:py-10 py-8 z-10 text-myblue">
-      A place to keep track of the different experiments I have made along my learning journey.
+      A place to keep track of the different experiments I have made along my learning journey. Continuously under construction.
       </div>
     </div>
     <figure class="border-myblue border-t"></figure>
@@ -49,9 +49,6 @@
           </NuxtLink>
         </li>
       </ul>
-
-    <!--social-->
-      <Footer/>
     </div>
   </div>
 </template>
@@ -63,13 +60,8 @@ export default {
       .only(['title', 'description', 'img', 'slug', 'author'])
       .sortBy('createdAt', 'desc')
       .fetch()
-    const tags = await $content('tags', params.slug)
-      .only(['name', 'description', 'img', 'slug'])
-      .sortBy('createdAt', 'asc')
-      .fetch()
     return {
-      experiments,
-      tags
+      experiments
     }
   }
 }

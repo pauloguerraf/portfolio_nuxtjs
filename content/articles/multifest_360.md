@@ -1,10 +1,9 @@
 ---
 title: Multifest 360
 description: This is a description for the article about me
+role: Front End Developer
 img: /projects_images/multifest_360/poster.jpg
 alt: nice image
-tags:
-  - web development
 ---
 
 ## There is just so much to write about me. Where do I start?

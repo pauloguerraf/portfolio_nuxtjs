@@ -1,10 +1,9 @@
 ---
 title: BdP Touch
-description: This is a description for the article about me
+description: Experiences developed for futuristic bank branch
+role: Tech Lead
 img: /projects_images/bdp_touch/poster.jpg
 alt: nice image
-tags:
-  - web development
 ---
 
 ## There is just so much to write about me. Where do I start?

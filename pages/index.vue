@@ -13,10 +13,10 @@
       <div class="py-10 relative w-full flex flex-wrap-reverse justify-between sm:justify-center items-stretch">
         <div class="sm:w-2/3 w-full flex flex-col h-full justify-center items-center md:pr-20">
           <p class="lg:text-4xl md:text-2xl text-2xl font-logo text-myblue">I
-            <strong>help</strong> brands overcome the <strong>challenges</strong> of using new technologies, and enjoy the <strong>process</strong> of creating <strong>valuable </strong> interactive <strong>experiences</strong> together.
+            <strong>help</strong> clients overcome the <strong>challenges</strong> of using new technologies, and enjoy the <strong>process</strong> of creating <strong>valuable </strong> interactive <strong>experiences</strong> with them.
           </p>
           <p class="ml-auto py-10">
-            <TextLink url="/about" :internal=true text="read more" class="font-bold hover:text-myyellow text-orange-500 text-3xl"/>
+            <TextLink url="/about" :internal=true text="read more about me" class="font-bold hover:text-myyellow text-orange-500 text-2xl"/>
           </p>
           <div >
 
@@ -36,26 +36,23 @@
       <div class="text-myblue font-bold text-4xl pt-10">FEATURED<br>COLLABORATIONS</div>
       <div class="w-full flex flex-wrap h-full">
         <div class="lg:w-1/4 sm:w-1/2 w-full p-8">
-          <img class="w-full py-8 mx-auto" src="/svgs/motomichi.svg">
+          <a href="https://www.motomichi.com/"><img class="w-full py-8 mx-auto" src="/svgs/motomichi.svg"></a>
           <p class="text-myblue"></p>
         </div>
         <div class="lg:w-1/4 sm:w-1/2 w-full p-8">
-          <img class="w-full py-8 mx-auto" src="/svgs/telefonica.svg">
+          <a href="https://www.telefonica.com.ec"><img class="w-full py-8 mx-auto" src="/svgs/telefonica.svg"></a>
           <p class="text-myblue"></p>
         </div>
         <div class="lg:w-1/4 sm:w-1/2 w-full p-8">
-          <img class="w-full py-8 mx-auto" src="/svgs/pnud.svg">
+          <a href="https://www.ec.undp.org/"><img class="w-full py-8 mx-auto" src="/svgs/pnud.svg"></a>
           <p class="text-myblue"></p>
         </div>
         <div class="lg:w-1/4 sm:w-1/2 w-full p-8">
-          <img class="w-full py-8 mx-auto" src="/svgs/presidencia.svg">
+          <a href="https://www.presidencia.gob.ec"><img class="w-full py-8 mx-auto" src="/svgs/presidencia.svg"></a>
           <p class="text-myblue"></p>
         </div>
       </div>
     </section>
-    <div class="relative w-10/12 mx-auto z-50">
-      <Footer/>
-    </div>
   </div>
 </template>
 
