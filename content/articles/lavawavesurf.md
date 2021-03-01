@@ -1,6 +1,6 @@
 ---
 title: Lavawave Surf
-description: This is a description for the article about me
+description: Website developed for a Galapago's travel agency focused primarily on surfing.
 role: Front End Developer
 img: /projects_images/lavawave/poster.jpg
 alt: nice image

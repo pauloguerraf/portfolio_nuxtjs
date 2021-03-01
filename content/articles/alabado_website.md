@@ -1,6 +1,6 @@
 ---
 title: Casa del Alabado
-description: This is a description for the article about me
+description: Website + ecommerce built for one of the main museums highlighting the extraordinary cultural creation of the pre-Columbian cultures.
 role: Front End Developer
 img: /projects_images/alabado_website/poster.jpg
 alt: nice image

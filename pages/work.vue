@@ -38,12 +38,12 @@
             />
 
             <div
-              class="lg:p-6 p-4 flex flex-col justify-between w-full"
+              class="lg:p-4 p-2 flex flex-col justify-between w-full"
             >
               <div class="font-bold md:text-xl text-2xl">{{ article.title }}</div>
-              <p class="sm:text-xl text-md">{{ article.description }}</p>
+              <p class="sm:text-md text-base">{{ article.description }}</p>
               <p class="text-gray-800 font-medium text-base mt-4 py-2 border-t-2 border-gray-500">
-          <span class="mr-3">•</span>{{ article.role }}
+          <span class="mr-3">//</span>{{ article.role }}
               </p>
             </div>
           </NuxtLink>

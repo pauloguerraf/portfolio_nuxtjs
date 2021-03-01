@@ -1,6 +1,6 @@
 ---
 title: Multifest 360
-description: This is a description for the article about me
+description: Digital space to showcase 360 videos submitted to Multifest-AR/VR festival.
 role: Front End Developer
 img: /projects_images/multifest_360/poster.jpg
 alt: nice image

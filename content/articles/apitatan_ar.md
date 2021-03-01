@@ -1,6 +1,6 @@
 ---
 title: Apitatán AR
-description: AR application developed in Unity
+description: AR application developed for Ecuadorian artist Apitatán.
 role: Tech Lead
 img: /projects_images/apitatan/poster.jpg
 alt: nice image

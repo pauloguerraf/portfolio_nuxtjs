@@ -1,6 +1,6 @@
 ---
 title: Aguamundi
-description: This is a description for the article about me
+description: Projection mapping + interactive experience on a cylindrical screen.
 role: Tech Lead
 img: /projects_images/aguamundi_mapping/poster.jpg
 alt: nice image

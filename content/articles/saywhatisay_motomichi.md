@@ -1,6 +1,6 @@
 ---
 title: Say What I Say
-description: This is a description for the article about me
+description: Remote collaboration with projection artist Motomichi Nakamura.
 role: Tech Lead
 img: /projects_images/saywhatisay/poster.jpg
 alt: nice image

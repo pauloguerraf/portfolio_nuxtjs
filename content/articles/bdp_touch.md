@@ -1,6 +1,6 @@
 ---
 title: BdP Touch
-description: Experiences developed for futuristic bank branch
+description: A series of digital experiences developed for a futuristic bank branch.
 role: Tech Lead
 img: /projects_images/bdp_touch/poster.jpg
 alt: nice image

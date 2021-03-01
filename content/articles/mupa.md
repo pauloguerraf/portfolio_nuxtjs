@@ -1,6 +1,6 @@
 ---
 title: Museo del Pasillo
-description: This is a description for the article about me
+description: A series of multimedia experiences for a museum tracing the history of pasillo music genre in Ecuador.
 role: Tech Lead
 img: /projects_images/museo_del_pasillo/poster.jpg
 alt: nice image

@@ -13,10 +13,10 @@
       <div class="py-10 relative w-full flex flex-wrap-reverse justify-between sm:justify-center items-stretch">
         <div class="sm:w-2/3 w-full flex flex-col h-full justify-center items-center md:pr-20">
           <p class="lg:text-4xl md:text-2xl text-2xl font-logo text-myblue">I
-            <strong>help</strong> clients overcome the <strong>challenges</strong> of using new technologies, and enjoy the <strong>process</strong> of creating <strong>valuable </strong> interactive <strong>experiences</strong> with them.
+            <strong>help</strong> people and organizations overcome the <strong>challenges</strong> of using new technologies and enjoy the <strong>process</strong> of creating <strong>valuable </strong> interactive <strong>experiences</strong> with them.
           </p>
           <p class="ml-auto py-10">
-            <TextLink url="/about" :internal=true text="read more about me" class="font-bold hover:text-myyellow text-orange-500 text-2xl"/>
+            <TextLink url="/about" :internal=true text="read more about my experience" class="font-bold hover:text-myyellow text-orange-500 text-2xl"/>
           </p>
           <div >
 
