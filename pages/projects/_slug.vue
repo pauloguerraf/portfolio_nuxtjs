@@ -12,7 +12,7 @@
         </div>
         <div class="text-6xl font-bold">{{ article.title }}</div>
       </div>
-      <div class="pt-6">
+      <div class="pt-6 text-xl">
        <nuxt-content :document="article" />
       </div>
     </div>
@@ -47,5 +47,17 @@ export default {
   left: 0%;
   transform-origin: 50% 50%;
   font-size: 15vw !important;
+}
+.nuxt-content p {
+  margin-bottom: 20px;
+}
+.nuxt-content h2 {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.nuxt-content h3 {
+  font-weight: bold;
+  font-size: 22px;
 }
 </style>
