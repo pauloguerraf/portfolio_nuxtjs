@@ -1,6 +1,6 @@
 ---
 title: Zoom
-description: This is a description for the article about me
+description: A series of physical and digital experiences developed for Yaku Water Park Museum latest exhibition.
 role: Tech Lead
 img: /projects_images/zoom/poster.jpg
 alt: nice image

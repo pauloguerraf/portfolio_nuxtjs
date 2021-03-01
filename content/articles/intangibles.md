@@ -1,6 +1,6 @@
 ---
 title: Intangibles
-description: This is a description for the article about me
+description: Interactive experiences installation and tech support for Telefonica's "Intangibles" exhibition.
 role: Tech Lead
 img: /projects_images/intangibles/poster.jpg
 alt: nice image

@@ -1,6 +1,6 @@
 ---
 title: Nosotros Robots
-description: This is a description for the article about me
+description: Robot mounting, troubleshooting and tech support for Telefonica's "Nosotros, Robots" exhibition.
 role: Tech Lead
 img: /projects_images/nosotros_robots/poster.jpg
 alt: nice image

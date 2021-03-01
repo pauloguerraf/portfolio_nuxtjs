@@ -1,6 +1,6 @@
 ---
 title: Houdini
-description: Experience design, development and mounting for Telefonica's "Houdini. Las Leyes del Asombro" exhibit.
+description: Experience design, development and mounting for Telefonica's "Houdini. Las Leyes del Asombro" exhibition.
 role: Tech Lead
 img: /projects_images/houdini/poster.jpg
 alt: nice image
