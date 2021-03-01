@@ -1,6 +1,6 @@
 ---
 title: Houdini
-description: This is a description for the article about me
+description: Experience design, development and mounting for Telefonica's "Houdini. Las Leyes del Asombro" exhibit.
 role: Tech Lead
 img: /projects_images/houdini/poster.jpg
 alt: nice image

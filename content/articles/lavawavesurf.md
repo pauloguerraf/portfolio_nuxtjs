@@ -1,6 +1,6 @@
 ---
 title: Lavawave Surf
-description: Website developed for a Galapago's travel agency focused primarily on surfing.
+description: Website developed for a Galapagos' travel agency focused primarily on surfing tours.
 role: Front End Developer
 img: /projects_images/lavawave/poster.jpg
 alt: nice image
