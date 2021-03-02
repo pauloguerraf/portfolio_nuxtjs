@@ -27,8 +27,8 @@
         class="lg:w-1/4 md:w-1/3 sm:px-6 py-6 sm:w-1/2 text-myblue card"
       >
           <NuxtLink
-            :to="{ name: 'blog-slug', params: { slug: experiment.slug } }"
-            class=" flex flex-col transition-shadow duration-150 ease-in-out shadow-md hover:shadow-xl "
+            :to="{ name: 'projects-slug', params: { slug: experiment.slug } }"
+            class=" flex flex-col h-full"
           >
 
             <img
@@ -37,13 +37,15 @@
               :src="experiment.img"
             />
 
-           <div
-              class="lg:p-6 p-4 flex flex-col justify-between w-full"
+            <div
+              class="lg:p-4 p-2 flex flex-col justify-between h-full w-full"
             >
-              <div class="font-bold md:text-xl text-2xl">{{ experiment.title }}</div>
-              <p class="sm:text-xl text-md font-normal">by {{ experiment.description }}</p>
-              <p class="font-semibold text-gray-600 text-sm">
-                {{ experiment.description }}
+              <div>
+                <div class="font-bold md:text-xl text-2xl">{{ experiment.title }}</div>
+                <p class="sm:text-md text-base">{{ experiment.description }}</p>
+              </div>
+              <p class="text-gray-800 font-medium text-base mt-4 py-2 border-t-2 border-gray-500">
+          <span class="mr-3">//</span>{{ experiment.role }}
               </p>
             </div>
           </NuxtLink>
