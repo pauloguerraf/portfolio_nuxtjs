@@ -1,7 +1,9 @@
 <template>
   <div class="w-full min-h-screen bg-white">
     <!--experiments-->
-    <div id="experiments" class="fixed font-bold text-center w-full h-screen text-myblue text-opacity-25"><div class="relative margin-auto">EXPERIMENTS</div></div>
+    <div id="experiments" class="fixed font-bold text-center w-full h-screen text-myblue text-opacity-25">
+      <div class="relative margin-auto">EXPERIMENTS</div>
+    </div>
     <!--group-->
   <div class="md:text-3xl text-2xl lg:px-40 md:px-36 px-20">
     <!--nav-->
@@ -11,8 +13,7 @@
           <LazyVideoComponent
           id="video-1"
           source="videos/experiments.mp4"
-          class="w-full transform rotate-6 object-cover shadow-sm border-gray border"
-        />
+          class="w-full transform rotate-6 object-cover shadow-sm border-gray border"/>
       </div>
       <div class="lg:w-4/6 w-full md:py-10 py-8 z-10 text-myblue">
       A place to keep track of the different experiments I have made along my learning journey. Continuously under construction.
@@ -24,29 +25,17 @@
       <li
         v-for="experiment of experiments"
         :key="experiment.slug"
-        class="lg:w-1/4 md:w-1/3 sm:px-6 py-6 sm:w-1/2 text-myblue card"
+        class="lg:w-1/4 md:w-1/3 sm:mx-6 my-6 sm:w-1/2 text-myblue card transition-shadow duration-150 ease-in-out shadow-md hover:shadow-xl"
       >
-          <NuxtLink
-            :to="{ name: 'projects-slug', params: { slug: experiment.slug } }"
-            class=" flex flex-col h-full"
-          >
+          <NuxtLink :to="{ name: 'projects-slug', params: { slug: experiment.slug } }" class=" flex flex-col h-full">
 
-            <img
-              v-if="experiment.img"
-              class="w-full object-cover"
-              :src="experiment.img"
-            />
+            <img v-if="experiment.img" class="w-full object-cover" :src="experiment.img"/>
 
-            <div
-              class="lg:p-4 p-2 flex flex-col justify-between h-full w-full"
-            >
+            <div class="lg:p-4 p-2 flex flex-col justify-between h-full w-full">
               <div>
                 <div class="font-bold md:text-xl text-2xl">{{ experiment.title }}</div>
                 <p class="sm:text-md text-base">{{ experiment.description }}</p>
               </div>
-              <p class="text-gray-800 font-medium text-base mt-4 py-2 border-t-2 border-gray-500">
-          <span class="mr-3">//</span>{{ experiment.role }}
-              </p>
             </div>
           </NuxtLink>
         </li>

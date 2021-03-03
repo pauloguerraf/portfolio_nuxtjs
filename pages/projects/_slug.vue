@@ -13,16 +13,10 @@
         <div class="text-6xl font-bold">{{ article.title }}</div>
       </div>
       <div class="pt-6 text-xl">
-       <!-- <nuxt-content :document="article" /> -->
-       <p class="font-bold uppercase">This page is still under construcion. More about this project soon.</p>
+       <nuxt-content :document="article" />
       </div>
     </div>
   </div>
-
-
-
-
-
 </template>
 <script>
 export default {
