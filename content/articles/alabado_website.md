@@ -6,12 +6,11 @@ img: /projects_images/alabado_website/poster.jpg
 alt: nice image
 ---
 
-## There is just so much to write about me. Where do I start?
+## Overview
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Museo Casa del Alabado is a museum in Quito, Ecuador dedicated to highlighting the extraordinary cultural creation of the pre-Columbian cultures in America. As many, it was affected by COVID-19, but it adapted quickly and started offering online activities to its visitors.  At the same time, we started working together on a new website and booking system in order to better control the amount of visitors once it was allowed to reopen its doors. 
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+The new website design was mostly proposed but the communication department of the museum. Wordpress, together with Woocommerce, was used to put together the website. I custom developed some elements and templates in order to satisfy the client design requirements . <a class="font-bold text-myyellow" href="https://www.yootheme.com">Yootheme</a> visual editor was also installed to make content and design edition easier for non developers.  The website is now available in two languages and third languages is planned to be added in the future. 
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+<div class="flex w-full"><img class="md:w-1/2 p-4" src="/projects_images/alabado_website/img1.jpg"> <img class="md:w-1/2 p-4" src="/projects_images/alabado_website/img2.jpg"></div>
