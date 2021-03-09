@@ -11,3 +11,5 @@ alt: nice image
 
 
 <div class="flex w-full"><img class="md:w-1/2 p-4" src="/projects_images/apitatan/mural_1.jpg"> <img class="md:w-1/2 p-4" src="/projects_images/apitatan/mural_2.jpg"></div>
+
+The Android version of this app can be downloaded from <a class="font-bold text-myyellow" href="/apps/Apitatan.apk">here</a>
