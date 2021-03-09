@@ -55,4 +55,25 @@ export default {
   font-weight: bold;
   font-size: 22px;
 }
+.nuxt-content a {
+  font-weight: bold;
+  color: #FFA700;
+}
+.nuxt-content img {
+  width: 50%;
+  padding: 8px;
+}
+.nuxt-content .imgs{
+  width: 100%;
+  display: flex;
+  margin: 16px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 760px){
+  .nuxt-content img {
+    width: 100%;
+    padding: 8px;
+  }
+}
+
 </style>

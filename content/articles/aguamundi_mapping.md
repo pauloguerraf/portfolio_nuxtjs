@@ -6,12 +6,8 @@ img: /projects_images/aguamundi_mapping/poster.jpg
 alt: nice image
 ---
 
-## There is just so much to write about me. Where do I start?
+## Overview
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+**Aguamundi** was one of the first projects I led in Quito, Ecuador. <a href="www.yakumuseoagua.gob.ec">Yaku Water Park Museum</a> asked me to help them with a permanent video mapping installation on a cylindrical screen with a diameter of 40 feet. Usually museums in Ecuador do not manage the same budgets for this type of projects as they do in other countries. Resourcefulness is key in order to creatively solve the challenges faced when trying to successfully deliver a project with a low budget. 
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+For this project I led pre-production and production of a panoramic video to be mapped on the cylindrical screen, as well as the final technology used to drive the installation. A gaming computer, together with 2 Datapath multidisplay controllers, and 8 - 3000 lumen projectors, were used for the final video mapping. A Kinect, together with a webcam were added in order to implement basic interactive activity as part of the installation. 

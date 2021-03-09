@@ -6,12 +6,13 @@ img: /projects_images/multifest_360/poster.jpg
 alt: nice image
 ---
 
-## There is just so much to write about me. Where do I start?
+## Overview
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Multifest is an annual festival dedicated to showcase augmented and virtual reality projects. It is organized in collaboration between the <a href="https://www.udla.edu.ec">Universidad de Las Américas</a> and the <a href="https://www.afquito.org.ec">Alliance Française</a> of Quito, Ecuador.  In 2020, due to the COVID-19 pandemic, it had to be organized from scratch as an online event. I was asked to guide the development of an online platform where visitors could see VR and 360 content sent by artists from Ecuador and France. We had two weeks to put everything together.
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+We used <a href="https://aframe.io/">A-Frame</a> and <a href="https://threejs.org/">ThreeJS</a> in order to build a virtual world that visitors could explore using either the keyboard, VR headsets, or their mobile devices. They could then enter a gallery of 10 photospheres, each redirecting them to a 360 video of the selected project. **Vimeo PRO** was used to host the projects due to time and bandwidth constrains.  The platform was ready to launch with the start of the festival and received around 5k visits during the week of the event. 
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+<div class="imgs">
+<img src="/projects_images/alabado_website/img1.jpg">
+<img src="/projects_images/alabado_website/img2.jpg">
+</div>
