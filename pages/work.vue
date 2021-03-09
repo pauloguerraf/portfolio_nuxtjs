@@ -11,7 +11,7 @@
       <!-- <div class="lg:w-2/6 w-full sm:order-2 flex justify-center lg:pl-10">
            <img class="rounded-full sm:w-3/4 lg:w-full lg:flex" src="profile.jpg"/>
       </div> -->
-      <div class="w-full md:py-10 py-8 z-10 text-myblue">
+      <div class="w-full md:py-10 py-8 z-50 relative text-myblue">
       Throughout my career, I have been part of several projects that have allowed me to <strong>explore</strong> and build experiences around the boundaries of both <strong>physical and digital</strong> worlds. From <strong>websites</strong> to multimedia installations, AR, VR, robotics, traditional and <strong>experimental interfaces</strong>, I have had the opportunity to learn from many technologies and from some <strong>amazing</strong> professionals using them around the <strong>world</strong>.
       <br>
       <br>

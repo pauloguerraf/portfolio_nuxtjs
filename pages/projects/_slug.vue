@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full min-h-screen bg-white z-10">
+  <div class="w-full min-h-screen bg-white">
     <!--background-->
     <div id="title" class="mx-auto fixed font-bold text-center w-full h-screen text-myblue text-opacity-25">{{ article.title }}</div>
 
     <!--info-->
-    <div class="md:text-4xl text-3xl lg:px-40 md:px-36 px-20 text-myblue">
+    <div class="md:text-4xl text-3xl lg:px-40 md:px-36 px-20 text-myblue z-50 relative">
       <div class="w-full h-full">
         <div class="mt-16 -mb-3 flex uppercase text-sm">
           <span class="mr-3">•</span>
