@@ -21,3 +21,5 @@ For this project I led pre-production and production of a panoramic video to be 
 <img src="/projects_images/aguamundi_mapping/img_3.jpg">
 <img src="/projects_images/aguamundi_mapping/img_4.jpg">
 </div>
+
+This installation is still active and has been running without issues since January 2018.
