@@ -63,6 +63,9 @@ export default {
   width: 50%;
   padding: 8px;
 }
+.nuxt-content video {
+  padding: 8px;
+}
 .nuxt-content .imgs{
   width: 100%;
   display: flex;

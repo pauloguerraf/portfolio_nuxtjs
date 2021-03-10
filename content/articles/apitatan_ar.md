@@ -13,5 +13,9 @@ alt: nice image
 <img src="/projects_images/apitatan/mural_1.jpg">
 <img src="/projects_images/apitatan/mural_2.jpg">
 </div>
+<div class="imgs">
+<video src="/videos/apitatan_ar.mp4" crossorigin="anonymous" autoplay="true" loop="true" muted="muted" playsinline></video>
+</div>
 
 The Android version of this app can be downloaded from <a target="_blank" href="/apps/Apitatan.apk">here</a>
+
