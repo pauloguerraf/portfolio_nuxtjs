@@ -14,4 +14,4 @@ alt: nice image
 <img src="/projects_images/apitatan/mural_2.jpg">
 </div>
 
-The Android version of this app can be downloaded from <a href="/apps/Apitatan.apk">here</a>
+The Android version of this app can be downloaded from <a target="_blank" href="/apps/Apitatan.apk">here</a>
