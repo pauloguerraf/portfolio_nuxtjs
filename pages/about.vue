@@ -12,7 +12,7 @@
           <img class="rounded-full sm:w-3/4" src="profile.jpg"/>
       </div>
       <div class="lg:w-4/6 w-full md:py-16 py-8 z-10 text-myblue">
-      Hola, my name is Paulo. I am a <strong>creative developer</strong> passionate about exploring <strong>cutting edge</strong> technology-enabled <strong>interactions</strong> and connecting people through <strong>meaningful</strong> and innovative <strong>experiences</strong>.
+      Hola! my name is Paulo. I am a <strong>creative developer</strong> passionate about exploring <strong>cutting edge</strong> technology-enabled <strong>interactions</strong> and connecting people through <strong>meaningful</strong> and innovative <strong>experiences</strong>.
       </div>
     </div>
 
