@@ -1,30 +1,30 @@
 <template>
   <div class="w-full min-h-screen bg-white">
     <!--background-->
-    <div id="title" class="mx-auto fixed font-bold text-center w-full h-screen text-myblue text-opacity-25">{{ article.title }}</div>
+    <div id="title" class="mx-auto fixed font-bold text-center w-full h-screen text-myblue text-opacity-25">{{ experiment.title }}</div>
     <!--info-->
     <div class="md:text-4xl text-3xl lg:px-40 md:px-36 px-20 text-myblue z-10 relative lg:m-10 m-8">
       <TextLink url="/work" :back=true :internal=true text="back" class="font-bold hover:text-myyellow text-orange-500 text-2xl"/>
       <div class="w-full h-full border-myblue border-l-4 pl-4">
         <div class="mt-16 -mb-3 flex uppercase text-sm">
           <span class="mr-3">•</span>
-          <p>{{ article.description }}</p>
+          <p>{{ experiment.description }}</p>
         </div>
-        <div class="text-6xl font-bold ">{{ article.title }}</div>
+        <div class="text-6xl font-bold ">{{ experiment.title }}</div>
       </div>
       <div class="pt-6 text-xl">
-       <nuxt-content :document="article" />
+       <nuxt-content :document="experiment" />
       </div>
-      <TextLink url="/work" :back=true :internal=true text="back" class="font-bold hover:text-myyellow text-orange-500 text-2xl"/>
+      <TextLink url="/experiments" :back=true :internal=true text="back" class="font-bold hover:text-myyellow text-orange-500 text-2xl"/>
     </div>
   </div>
 </template>
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch()
+    const experiment = await $content('blog', params.slug).fetch()
     return {
-      article,
+      experiment,
     }
   },
   methods: {

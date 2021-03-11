@@ -21,17 +21,26 @@
     </div>
     <figure class="border-myblue border-t"></figure>
     <!--history-->
-    <ul class="flex flex-wrap py-10 z-50 relative">
+      <ul class="flex flex-wrap py-10 z-50 relative">
       <li
         v-for="experiment of experiments"
         :key="experiment.slug"
         class="lg:w-1/4 md:w-1/3 sm:mx-6 my-6 sm:w-1/2 text-myblue card transition-shadow duration-150 ease-in-out shadow-md hover:shadow-xl"
       >
-          <NuxtLink :to="{ name: 'projects-slug', params: { slug: experiment.slug } }" class=" flex flex-col h-full">
+          <NuxtLink
+            :to="{ name: 'blog-slug', params: { slug: experiment.slug } }"
+            class=" flex flex-col h-full"
+          >
 
-            <img v-if="experiment.img" class="w-full object-cover" :src="experiment.img"/>
+            <img
+              v-if="experiment.img"
+              class="w-full object-cover"
+              :src="experiment.img"
+            />
 
-            <div class="lg:p-4 p-2 flex flex-col justify-between h-full w-full">
+            <div
+              class="lg:p-4 p-2 flex flex-col justify-between h-full w-full"
+            >
               <div>
                 <div class="font-bold md:text-xl text-2xl">{{ experiment.title }}</div>
                 <p class="sm:text-md text-base">{{ experiment.description }}</p>
@@ -47,7 +56,7 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const experiments = await $content('experiments', params.slug)
+    const experiments = await $content('blog', params.slug)
       .only(['title', 'description', 'img', 'slug', 'author'])
       .sortBy('createdAt', 'desc')
       .fetch()
