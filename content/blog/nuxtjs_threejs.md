@@ -1,5 +1,5 @@
 ---
-title: NuxtJS+ThreeJS
+title: NuxtJS + ThreeJS
 description: Quick test using threejs within nuxt.
 img: /posts_images/nuxtjs_threejs/poster.jpg
 alt: nice image
