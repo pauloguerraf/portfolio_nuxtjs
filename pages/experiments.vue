@@ -16,7 +16,7 @@
           class="w-full transform rotate-6 object-cover shadow-sm border-gray border"/>
       </div>
       <div class="lg:w-4/6 w-full md:py-10 py-8 z-10 text-myblue">
-      A place to keep track of the different experiments I have made along my learning journey. Continuously under construction.
+      A place to keep track of the different experiments I have made along my learning journey. Continuously <b>under construction</b>.
       </div>
     </div>
     <figure class="border-myblue border-t"></figure>
