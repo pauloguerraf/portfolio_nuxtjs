@@ -8,7 +8,7 @@ alt: nice image
 
 ## Overview
 
-**Nosotros Robots** is an exhibition that reflects on the challenges facing humanity with the unstoppable development of robots and the possibilities they offer to transform the future. <a href="https://www.telefonica.com.ec">Telefónica Ecuador</a> presented a selection of around 20 robots for this exhibition. Due to COVID-19, none of the engineers responsible for putting together the robots were able to travel and be physically present in the space where the exhibition was mounted. I was then contacted to, under remote assistance, become responsible for mounting all the robots for the exhibition. 
+**Nosotros Robots** is an exhibition that reflects on the challenges facing humanity with the unstoppable development of robots and the possibilities they offer to transform the future. <a href="https://www.telefonica.com.ec">Telefónica Ecuador</a> presented a selection of around 20 robots for this exhibition. Due to COVID-19, none of the engineers responsible for putting together the robots were able to travel and be physically present in the space where the exhibition was mounted. I was then contacted to, under remote assistance, become responsible for mounting all the robots for the exhibition. Most of the robots didn't need a lot of work to setup. Nonetheless, those which needed to be powered did required some troubleshooting. Luckily, most of them had an **Arduino** micro-controller under the hood. I follow my usual process to measure each of the sensors signals and fix what wasn't working either on the electronics or on the programming side.
 
 
 <div class="imgs">
