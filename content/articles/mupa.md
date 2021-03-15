@@ -21,7 +21,8 @@ A second interactive application consisted of three multitouch screens were visi
 
 A third installation involved the videomapping of 5 antique devices and instruments related to *pasillo* music genre. **Resolume Arena** and an **Arduino**  were used to control the synchronization of all the projections part of the installation. 
 
-The fourth and final installation required modifying and old jukebox. The idea was to offer an experience that blended the traditional way of selecting songs by pushing buttons with a custom designed digital system. As in karaoke, visitors could choose a song and sing along while lyrics would display on a screen in front of them. At the end of the experience they could take a picture of themselves.  The application digitally placed their favorite artist in the background of the picture and email it to the visitor. **Openframeworks** and **Arduino** were used to implement this experience.
+
+The fourth and final installation required modifying and old jukebox. The idea was to offer an experience that blended the traditional way of selecting songs by pushing buttons, with a custom designed modern digital feedback system. As in karaoke, visitors could choose a song and sing along while lyrics would display on a screen in front of them. At the end of the experience they could take a picture of themselves.  The application digitally placed their favorite artist in the background of the picture and email it to the visitor. **Openframeworks** and **Arduino** were used to implement this experience.
 
 <div class="imgs">
 <img src="/projects_images/museo_del_pasillo/img_3.jpg">
