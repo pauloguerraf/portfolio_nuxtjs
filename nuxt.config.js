@@ -8,7 +8,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Creative Developer' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -49,8 +49,19 @@ css: ['~/assets/main.css'],
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    ['nuxt-social-meta',
+        {
+          url: "pauloguerraf.dev",
+          title: "Paulo Guerra F.",
+          site_name: "pauloguerraf.dev",
+          description: "Creative Developer",
+          img: "./og_social.jpg",
+          locale: "en_US",
+          twitter: "@pauloguerraf",
+          twitter_card: "./og_social.jpg",
+          themeColor: "#0000fff",
+        },],
   ],
-
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
 
@@ -73,5 +84,5 @@ css: ['~/assets/main.css'],
         ital: [100]
       },
     }
-  }
+  },
 }
