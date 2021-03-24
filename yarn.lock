@@ -6495,10 +6495,10 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-locomotive-scroll@^4.0.6:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/locomotive-scroll/-/locomotive-scroll-4.1.0.tgz#514e48d6aac56d934d99c5d164c4c5b168176323"
-  integrity sha512-XZtvNO3CsnUHXmXgzbDaOv6LwXBQ2/P77IFUeZmj+EXCsaDiWwmjdctN1lV+m2PJevK2GLaTPD0ilNrZX6UQYw==
+locomotive-scroll@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/locomotive-scroll/-/locomotive-scroll-4.1.1.tgz#9763a29d9bc2ec975d9cd99ddd717961d5eeb68c"
+  integrity sha512-9ov0/NelYuRHrmpsBvAUzDvcND0Nq1iblSp4zZrzRaq78ahKBCPUVmzu0Spd5jPrtzGS1qaPsjP84l1vyjE44g==
   dependencies:
     "@modularbp/gulp-watch" "^1.0.5"
     bezier-easing "^2.1.0"
