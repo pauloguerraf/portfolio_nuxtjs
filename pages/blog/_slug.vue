@@ -65,14 +65,14 @@ export default {
   padding: 8px;
   border-radius: 15px;
 }
-.nuxt-content video {
-  padding: 8px;
-}
 .nuxt-content .imgs{
   width: 100%;
   display: flex;
   margin: 16px;
   flex-wrap: wrap;
+}
+.nuxt-content video {
+  width: 50%;
 }
 .nuxt-content .instagram{
   width: 100%;

@@ -66,7 +66,7 @@ export default {
   border-radius: 15px;
 }
 .nuxt-content video {
-  padding: 8px;
+  width: 50%;
 }
 .nuxt-content .imgs{
   width: 100%;
@@ -86,6 +86,13 @@ export default {
   display: flex;
   margin: 16px;
   flex-wrap: wrap;
+}
+.nuxt-content .citations{
+  font-size: 18px;
+}
+.nuxt-content .citations li{
+  padding: 10px 5px;
+  list-style: none;
 }
 @media screen and (max-width: 760px){
   .nuxt-content img {
