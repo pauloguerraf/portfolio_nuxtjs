@@ -4,36 +4,38 @@
       <LazyVideoComponent
         id="video-1"
         source="videos/interactive.mp4"
-        class="w-2/3 object-cover my-10 border-gray border shadow-md"
+        class="md:w-2/3 object-cover my-10 border-gray border shadow-md"
       />
     </section>
     <section class="w-10/12 mx-auto py-10">
       <figure class="border-myblue border-t"></figure>
-      <div class="text-white font-bold text-4xl py-10">PLAYING WITH TECH<br>SINCE THE '80s</div>
-      <div class="py-10 relative w-full flex flex-wrap-reverse justify-between sm:justify-center items-stretch">
-        <div class="sm:w-2/3 w-full flex flex-col h-full justify-center items-center md:pr-20">
-          <p class="lg:text-4xl md:text-2xl text-2xl font-logo text-myblue">I
-            <strong>help</strong> people and organizations overcome the <strong>challenges</strong> of using new technologies and enjoy the <strong>process</strong> of creating <strong>valuable </strong> interactive <strong>experiences</strong> with them.
-          </p>
-          <p class="ml-auto py-10">
-            <TextLink url="/about" :internal=true text="read more about my experience" class="font-bold hover:text-myyellow text-orange-500 text-2xl"/>
-          </p>
-          <div >
+      <div class="md:px-36 px-10">
+        <div class="text-myblue font-bold text-3xl pt-10">PLAYING WITH TECH<br>SINCE THE '80s</div>
+        <div class="py-5 relative w-full flex flex-wrap-reverse justify-between items-stretch">
+          <div class="md:w-2/3 w-full flex flex-col h-full justify-center items-center">
+            <p class="md:text-2xl text-xl font-logo text-myblue">I
+              <strong>help</strong> people and organizations overcome the <strong>challenges</strong> of using new technologies and enjoy the <strong>process</strong> of creating <strong>valuable </strong> interactive <strong>experiences</strong> with them.
+            </p>
+            <p class="ml-auto py-10">
+              <TextLink url="/about" :internal=true text="read more about my experience" class="font-bold hover:text-myyellow text-orange-500 text-2xl"/>
+            </p>
+            <div >
 
+            </div>
           </div>
-        </div>
-        <div class="md:w-1/3 w-9/12 flex flex-col justify-start self-start">
-          <LazyVideoComponent
-          id="video-1"
-          source="videos/steerbywire.mp4"
-          class="w-full transform -rotate-6 object-cover md:my-0 my-10 border-gray border shadow-md"
-        />
+          <div class="md:w-1/3 w-full flex flex-col items-center p-4">
+            <LazyVideoComponent
+            id="video-1"
+            source="videos/steerbywire.mp4"
+            class="w-full transform -rotate-6 object-cover mb-10 border-gray border shadow-md"
+          />
+          </div>
         </div>
       </div>
     </section>
     <section class="w-10/12 mx-auto">
       <figure class="border-myblue border-t"></figure>
-      <div class="text-myblue font-bold text-4xl pt-10">FEATURED<br>COLLABORATIONS</div>
+      <div class="text-myblue font-bold text-3xl pt-10 md:px-36 px-10">FEATURED<br>COLLABORATIONS</div>
       <div class="w-full flex flex-wrap h-full">
         <div class="lg:w-1/4 sm:w-1/2 w-full p-8">
           <a href="https://www.motomichi.com/"><img class="w-full py-8 mx-auto" src="/svgs/motomichi.svg"></a>
