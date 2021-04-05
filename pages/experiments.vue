@@ -5,7 +5,7 @@
       <div class="relative margin-auto">EXPERIMENTS</div>
     </div>
     <!--group-->
-  <div class="md:text-3xl text-2xl lg:px-40 md:px-36 px-20">
+  <div class="md:text-2xl text-xl lg:px-40 md:px-36 px-20">
     <!--nav-->
     <!--intro-->
     <div id="intro" class="w-full py-12 lg:flex md:px-6 items-center justify-between z-10">
@@ -13,7 +13,7 @@
           <LazyVideoComponent
           id="video-1"
           source="videos/experiments.mp4"
-          class="w-full transform rotate-6 object-cover shadow-sm border-gray border"/>
+          class="w-full transform rotate-6 object-cover shadow-md border-gray border"/>
       </div>
       <div class="lg:w-4/6 w-full md:py-10 py-8 z-10 text-myblue">
       A place to keep track of the different experiments I have made along my learning journey. Continuously <b>under construction</b>.

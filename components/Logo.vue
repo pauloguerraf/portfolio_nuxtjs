@@ -1,7 +1,7 @@
 <template>
- <nuxt-link to="/">
- <div id="logo-0" v-if="rotation==0" class="leading-none font-bold text-center lg:text-7xl md:text-5xl sm:text-4xl text-3xl">pauloguerraf.dev</div>
- <div id="logo-txt" v-else class="leading-none font-bold text-left lg:text-7xl md:text-5xl sm:text-4xl text-3xl transform -rotate-180 translate-x-1/4 translate-y-0 py-4">pauloguerraf.dev</div>
+ <nuxt-link to="/" class="focus:outline-none">
+ <div id="logo-0" v-if="rotation==0" class="focus:outline-none leading-none font-bold text-center lg:text-7xl md:text-5xl sm:text-4xl text-3xl">pauloguerraf.dev</div>
+ <div id="logo-txt" v-else class="focus:outline-none leading-none font-bold text-left lg:text-7xl md:text-5xl sm:text-4xl text-3xl transform -rotate-180 translate-x-1/4 translate-y-0 py-4">pauloguerraf.dev</div>
  </nuxt-link>
 </template>
 <script>

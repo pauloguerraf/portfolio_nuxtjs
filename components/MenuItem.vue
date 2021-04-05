@@ -1,5 +1,5 @@
 <template>
-    <nuxt-link class="menu__item relative uppercase md:px-10 sm:w-1/4 w-1/3 text-center font-menu text-myblue hover:font-semibold text-xl" :to="url">
+    <nuxt-link class="menu__item relative uppercase md:px-10 sm:w-1/4 w-1/3 text-center font-menu text-myblue hover:font-semibold text-xl focus:outline-none" :to="url">
       <span class="menu__item-name">{{text}}</span>
     </nuxt-link>
 </template>

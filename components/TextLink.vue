@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-link v-if="internal" :to="url" class="py-4 text-center stroke-current">
+    <nuxt-link v-if="internal" :to="url" class="py-4 text-center stroke-current focus:outline-none">
         <svg v-if="back && !download" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 inline" viewBox="0 0 24 25.243">
           <g transform="translate(-6 -5.379)">
             <path d="M28.5,18H7.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
@@ -21,7 +21,7 @@
           </g>
         </svg>
     </nuxt-link>
-    <a v-else :href="url" class="bg-transparent py-4 text-center stroke-current">
+    <a v-else :href="url" class="bg-transparent py-4 text-center stroke-current focus:outline-none">
         {{text}}
          <svg v-if="download" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 inline" viewBox="0 0 19.243 19.243">
           <g transform="translate(-8.379 -8.379)">

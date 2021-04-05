@@ -4,7 +4,7 @@
     <div id="work" class="fixed font-bold text-center w-full h-screen text-myblue text-opacity-25"><div class="relative margin-auto">WORK</div></div>
 
     <!--group-->
-  <div class="md:text-3xl text-2xl lg:px-40 md:px-36 px-20">
+  <div class="md:text-2xl text-xl lg:px-40 md:px-36 px-20">
     <!--nav-->
     <!--intro-->
     <div id="intro" class="w-full py-12 lg:flex md:px-6 z-10">
@@ -20,20 +20,20 @@
     </div>
     <figure class="border-myblue border-t"></figure>
     <!--history-->
-    <ul class="flex flex-wrap py-10 z-50 relative justify-center">
+    <ul class="w-full flex flex-wrap py-10 z-50 relative justify-center">
       <li
         v-for="article of articles"
         :key="article.slug"
-        class="lg:w-1/4 md:w-1/3 sm:mx-6 my-6 sm:w-1/2 text-myblue card transition-shadow duration-150 ease-in-out shadow-md hover:shadow-xl"
+        class="md:w-1/3 lg:w-1/3 my-6 sm:w-1/2 text-myblue md:px-4 lg:px-8 px-0 sm:px-2"
       >
           <NuxtLink
             :to="{ name: 'projects-slug', params: { slug: article.slug } }"
-            class=" flex flex-col h-full"
+            class=" flex flex-col h-full card transition-shadow duration-150 ease-in-out shadow-md hover:shadow-xl bg-gray-300"
           >
 
             <img
               v-if="article.img"
-              class="w-full object-cover"
+              class="object-cover"
               :src="article.img"
             />
 

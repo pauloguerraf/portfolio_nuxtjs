@@ -4,7 +4,7 @@
     <div id="title" class="mx-auto fixed font-bold text-center w-full h-screen text-myblue text-opacity-25">{{ experiment.title }}</div>
     <!--info-->
     <div class="md:text-4xl text-3xl lg:px-40 md:px-36 px-20 text-myblue z-10 relative lg:m-10 m-8">
-      <TextLink url="/work" :back=true :internal=true text="back" class="font-bold hover:text-myyellow text-orange-500 text-2xl"/>
+      <TextLink url="/experiments" :back=true :internal=true text="back" class="font-bold hover:text-myyellow text-orange-500 text-2xl"/>
       <div class="w-full h-full border-myblue border-l-4 pl-4">
         <div class="mt-16 -mb-3 flex uppercase text-sm">
           <span class="mr-3">•</span>

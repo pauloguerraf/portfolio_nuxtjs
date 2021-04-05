@@ -4,7 +4,7 @@
       <LazyVideoComponent
         id="video-1"
         source="videos/interactive.mp4"
-        class="w-2/3 object-cover py-10"
+        class="w-2/3 object-cover my-10 border-gray border shadow-md"
       />
     </section>
     <section class="w-10/12 mx-auto py-10">
@@ -26,7 +26,7 @@
           <LazyVideoComponent
           id="video-1"
           source="videos/steerbywire.mp4"
-          class="w-full transform -rotate-6 object-cover md:py-0 py-10"
+          class="w-full transform -rotate-6 object-cover md:my-0 my-10 border-gray border shadow-md"
         />
         </div>
       </div>
