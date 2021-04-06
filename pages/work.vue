@@ -12,7 +12,7 @@
            <img class="rounded-full sm:w-3/4 lg:w-full lg:flex" src="profile.jpg"/>
       </div> -->
       <div class="w-full md:py-10 py-8 z-50 relative text-myblue">
-      Throughout my career, I have been part of several projects that have allowed me to <strong>explore</strong> and build experiences around the boundaries of both <strong>physical and digital</strong> worlds. From <strong>websites</strong> to multimedia installations, AR, VR, robotics, traditional and <strong>experimental interfaces</strong>, I have had the opportunity to learn from many technologies and from some <strong>amazing</strong> professionals using them around the <strong>world</strong>.
+      Throughout my career, I have been part of several projects that have allowed me to <strong>explore</strong> and build experiences around the boundaries of both <strong>physical and digital</strong> worlds. From <strong>websites</strong> to multimedia installations, AR, VR, robotics, traditional and <strong>experimental interfaces</strong>, I have had the opportunity to learn from many technologies and from <strong>amazing</strong> professionals using them around the <strong>world</strong>.
       <br>
       <br>
       <strong>Curiosity</strong> helps me keep <strong>up to date</strong> with new tools and I am always <strong>happy</strong> to keep learning in order to <strong>successfully</strong> deliver new projects.

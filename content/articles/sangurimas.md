@@ -7,6 +7,8 @@ img: /projects_images/sangurimas/poster.jpg
 
 ## Overview
 
+This article is still in the works. Please come back soon to read more about this project.
+
 <div class="imgs">
 <img src="/projects_images/sangurimas/img_1.jpg">
 <img src="/projects_images/sangurimas/img_2.jpg">
