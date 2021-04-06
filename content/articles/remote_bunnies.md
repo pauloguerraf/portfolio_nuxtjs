@@ -46,8 +46,14 @@ _Robot Control Agent_
 Based on the interface setups used in [2] and [3], a computer vision-based system has been implemented to control the tangible robots. The system relies on reacTIVision, a framework that allows fast tracking of fiducial markers in real-time [4]. The fiducial markers placed on the robot allow the system to continuously provide information on each robot's location and orientation. Based on the idea of projection-based robot control in [5], the agent uses graphics displayed on a LCD screen to control the robots via their light sensors.
 
 <div class="imgs">
-	 <video class="border-gray border shadow-md p-0 m-0 outline-none" src="/projects_images/remote_bunnies/video_1.mp4" crossorigin="anonymous" autoplay="true" loop="true" muted="true" playsinline></video>
-<video class="border-gray border shadow-md p-0 m-0 outline-none" src="/projects_images/remote_bunnies/video_2.mp4" crossorigin="anonymous" autoplay="true" loop="true" muted playsinline></video>
+	  <lazy-video-component
+	showcontrols='true' source="/projects_images/remote_bunnies/video_1.mp4"
+        class="md:w-1/2 object-cover my-10 border-gray border shadow-md"
+    ></lazy-video-component>
+<lazy-video-component
+	showcontrols='true' source="/projects_images/remote_bunnies/video_2.mp4"
+        class="md:w-1/2 object-cover my-10 border-gray border shadow-md"
+    ></lazy-video-component>
 </div>
 
 <div class="citations">

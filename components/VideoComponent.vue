@@ -1,5 +1,5 @@
 <template>
-  <video :src="source" crossorigin="anonymous" :autoplay="play" loop="true" muted="muted" playsinline></video>
+  <video  ref="video" :src="source" crossorigin="anonymous" autoplay loop playsinline></video>
 </template>
 <script>
 export default {
@@ -8,16 +8,26 @@ export default {
       type: String,
       default: 'videos/morabeza.mp4'
     },
-    play: {
+    showcontrols: {
       type: String,
       default: 'false'
-    }
+    },
   },
   data() {
     return {}
   },
   methods: {},
-  mounted() {}
+  mounted() {
+    this.$refs.video.volume = 0;
+    this.$refs.video.mute = true;
+
+    if(this.showcontrols === 'true')this.$refs.video.setAttribute('controls', '1');
+  },
+  computed: {
+    videoElement () {
+      return this.$refs.video;
+    },
+  }
 }
 </script>
 
