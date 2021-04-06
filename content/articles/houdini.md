@@ -19,11 +19,11 @@ Augmented and Virtual Reality were used to implement two of the experiences for 
 <img src="/projects_images/houdini/img_2.jpg">
 </div>
 
-Two additional experiences were developed using the **Leap Motion** and the **Kinect** sensors:
+Two additional experiences were developed using the **Leap Motion** and a **Kinect** sensor:
 
 The Leap Motion was used to provide visitors with an experience in which they could control de display of 4 videos on 4 different screen by using hand gestures in the air. A circle gesture would switch videos to the next available screen, either clockwise or counter-clockwise depending on the direction of the gesture. A close hand gesture would scale down the videos to make them disappear from the screens, and an open hand gesture would scale them up again.  A central computer running **Processing** would read the Leap Motion sensor and send OSC to 4 RaspberryPi (one for each screen) running **Openframeworks** in order to synchronize the effects to take place on the screens depending on the hand gestures made by the user.  
 
-A Kinect was used to implement an interactive experience in which a digital straitjacket would be superimposed on top of the visitor's digital image captured by the Kinect Camera. Visitors would then have to start moving as trying to escape from the straitjacket. A timer displayed on the screen would help build some of the suspense that Houdini created around his famous escape tricks.
+The Kinect was used to implement an interactive experience in which a digital straitjacket would be superimposed on top of the visitor's digital image captured by the Kinect Camera. Visitors would then have to start moving as trying to escape from the straitjacket. A timer displayed on the screen would help build some of the suspense that Houdini created around his famous escape tricks.
 
 <div class="imgs">
 <img src="/projects_images/houdini/img_3.jpg">

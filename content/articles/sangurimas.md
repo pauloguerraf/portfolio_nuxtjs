@@ -17,7 +17,6 @@ img: /projects_images/sangurimas/poster.jpg
 <img src="/projects_images/sangurimas/img_4.jpg">
 </div>
 
-### Implementation
 
 <div class="imgs">
     <lazy-video-component

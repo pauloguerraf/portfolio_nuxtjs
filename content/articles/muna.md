@@ -1,6 +1,6 @@
 ---
 title: MuNa
-description: Multimedia technology consultancy for Ecuador's National Museum
+description: Multimedia technology consultancy for Ecuador's National Museum.
 role: Tech Lead
 img: /projects_images/muna/poster.jpg
 alt: nice image
@@ -8,20 +8,20 @@ alt: nice image
 
 ## Overview
 
-<!-- **Houdini. Las Leyes del Asombro** was the first exhibit in which I got to assist <a href="https://www.telefonica.com.ec">Telefónica Ecuador</a> by leading the development of a set of interactives to reinforce the content displayed in the exhibit. The whole project was carried under the guidance and supervision of Telefónica Spain.
+ **MuNa - Ecuador's National Museum** reopened its doors in May 2018 after a complete renovation. I led the team behind hardware selection and software development for all the interactive installations in the new museum. A 360 cylindrical projection screen, 9 multi-touch screens and 14 video screens were part of this project.  Some interactive installations replaced multi-touch interaction with embodied interaction using either web cameras or **Kinect** skeletal tracking.
 
-Augmented and Virtual Reality were used to implement two of the experiences for the exhibit. The AR application was developed using **Unity** and **Vuforia** and allowed visitors to augment posters from various of Houdini's performances. The VR experience immersed the visitors inside an old theater where they could watch original videos of some of Houdini's greatest magic tricks.  **Unreal Engine** was used to put together this experience and packaged it as a mobile app that could be run on Samsung Gear VR headsets.  -->
+### Implementation  
+
+
+
+**Ideum** (www.ideum.com) multi-touch screens were used to run a series of interactive applications that allowed visitors to explore content through interactive timelines, photogrammetries, games and maps.  A **VIOSO** (www.vioso.com) projection server with auto-alignment technology and 6 **EPSON** projectors were used to display a custom produced 360 video on a cylindrical screen.  **ELO** (www.elotouch.com) screens were initially used to display video content but leaving open the possibility to use their multi-touch capabilities in the future.  Video content was presented with directional audio which was achieved using directional sound domes from **Brown Innovations** (https://www.browninnovations.com/)
+
+A mobile audio guide application and the museum's were also part of this project. 
 
 <div class="imgs">
 <img src="/projects_images/muna/img_1.jpg">
 <img src="/projects_images/muna/img_2.jpg">
 </div>
-
-<!-- Two additional experiences were developed using the **Leap Motion** and the **Kinect** sensors:
-
-The Leap Motion was used to provide visitors with an experience in which they could control de display of 4 videos on 4 different screen by using hand gestures in the air. A circle gesture would switch videos to the next available screen, either clockwise or counter-clockwise depending on the direction of the gesture. A close hand gesture would scale down the videos to make them disappear from the screens, and an open hand gesture would scale them up again. A central computer running **Processing** would read the Leap Motion sensor and send OSC to 4 RaspberryPi (one for each screen) running **Openframeworks** in order to synchronize the effects to take place on the screens depending on the hand gestures made by the user.
-
-A Kinect was used to implement an interactive experience in which a digital straitjacket would be superimposed on top of the visitor's digital image captured by the Kinect Camera. Visitors would then have to start moving as trying to escape from the straitjacket. A timer displayed on the screen would help build some of the suspense that Houdini created around his famous escape tricks. -->
 
 <div class="imgs">
 <img src="/projects_images/muna/img_3.jpg">

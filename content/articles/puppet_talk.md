@@ -25,8 +25,8 @@ The main goal of PuppetTalk is to orchestrate playful, momentary, and unexpected
 
 ### Implementation
 
-PuppetTalk consists of 2 string puppets, 4 servomotors, 2 stepper motors, 1 Arduino board, and 1 computer. A pitch detection software program developed using openFrameworks, processes the audio signals captured
-by the computer's microphone. The software program extracts pitch information out of the audio signals and classifies them as low or high pitch sounds. Based on this classification, control signals are sent to the Arduino board, which in turn controls the motors that move the strings of the puppets accordingly.
+PuppetTalk consists of 2 string puppets, 4 servomotors, 2 stepper motors, 1 Arduino board, and 1 computer. A pitch detection software program developed using **openFrameworks**, processes the audio signals captured
+by the computer's microphone. The software program extracts pitch information out of the audio signals and classifies them as low or high pitch sounds. Based on this classification, control signals are sent to the **Arduino** board, which in turn controls the motors that move the strings of the puppets accordingly.
 <div class="imgs">
     <lazy-video-component
 	showcontrols='true' source="/projects_images/puppet_talk/video_1.mp4"
