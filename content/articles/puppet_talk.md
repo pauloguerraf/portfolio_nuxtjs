@@ -22,6 +22,6 @@ We live in a time in which technology has made available new communication chann
 </div>
 
 <div class="imgs">
-	 <video class="border-gray border shadow-md p-0 m-0 outline-none" src="/projects_images/puppet_talk/video_1.mp4" crossorigin="anonymous" autoplay loop muted controls playsinline></video>
-<video class="border-gray border shadow-md p-0 m-0 outline-none" src="/projects_images/puppet_talk/video_2.mp4" crossorigin="anonymous" autoplay loop muted controls playsinline></video>
+	 <video class="border-gray border shadow-md p-0 m-0 outline-none" src="/projects_images/puppet_talk/video_1.mp4" crossorigin="anonymous" controls muted></video>
+<video class="border-gray border shadow-md p-0 m-0 outline-none" src="/projects_images/puppet_talk/video_2.mp4" crossorigin="anonymous" controls muted></video>
 </div>
