@@ -10,8 +10,8 @@
     <section class="w-10/12 mx-auto py-10">
       <figure class="border-myblue border-t"></figure>
       <div class="md:px-36 px-10">
-        <div class="text-myblue font-bold text-3xl pt-10">PLAYING WITH TECH<br>SINCE THE '80s</div>
-        <div class="py-5 relative w-full flex flex-wrap-reverse justify-between items-stretch">
+        <!-- <div class="text-myblue font-bold text-3xl pt-10">HAVING FUN WITH TECHNOLOGY<br>SINCE THE '80s</div> -->
+        <div class="pb-10 pt-20 relative w-full flex flex-wrap-reverse justify-between items-stretch">
           <div class="md:w-1/2 w-full flex flex-col h-full justify-center items-center">
             <p class="md:text-2xl text-xl font-logo text-myblue">I
               <strong>help</strong> people and organizations overcome the <strong>challenges</strong> of using new technologies and enjoy the <strong>process</strong> of creating <strong>valuable </strong> interactive <strong>experiences</strong> with them.

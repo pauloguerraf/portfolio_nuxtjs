@@ -12,7 +12,7 @@ RemoteBunnies is a proof-of-concept design for multi-agent phenomena mapping bet
 The RemoteBunnies system consists of three major elements: a sensor network. a tangible representational tool, and a XMPP server. The sensor network supports data collection and monitoring for multiple agents in a physical environment. The tangible representational tool is used to map the data received from the sensor network into another physical environment. The XMPP server works as a one-way communication bridge between the sensor network and the tangible representational tool.
 
 <div class="w-full text-center">
-<img class="mx-auto" src="/posts_images/remote_bunnies/img_1.jpg">
+<img class="mx-auto" src="/projects_images/remote_bunnies/img_1.jpg">
 </div>
 
 In the Embedded Phenomena (EP) framework [1], simulated scientific phenomena are mapped to the physical space of the classroom and accessed through a small number of embedded and mobile "portals." Learners study these phenomena over periods of weeks, collecting data on the course of the phenomenon to answer a question or solve a problem. For my M.S. thesis, I developed RemoteBunnies, the technology base for an application that extends the EP framework in two ways. First, it replaces the simulation with a live data stream drawn from a sensor network installed in a natural habitat: a small urban field that hosts a population of cottontail rabbits. (The data stream reflects the sequence of individual rabbits' visits to a collection of experimental "food patches" that can be configured within the habitat.) Second, rather than representing the phenomena in the classroom through display portals, we reflect the rabbits' foraging patterns using a set of tiny robots, with each robot serving as an avatar for an individual rabbit. This results in a live multi-agent mapping between the two physicals environments.
@@ -48,7 +48,6 @@ Based on the interface setups used in [2] and [3], a computer vision-based syste
 <div class="imgs">
 	 <video class="border-gray border shadow-md p-0 m-0 outline-none" src="/projects_images/remote_bunnies/video_1.mp4" crossorigin="anonymous" autoplay="true" loop="true" muted="true" playsinline></video>
 <video class="border-gray border shadow-md p-0 m-0 outline-none" src="/projects_images/remote_bunnies/video_2.mp4" crossorigin="anonymous" autoplay="true" loop="true" muted playsinline></video>
-
 </div>
 
 <div class="citations">

@@ -99,6 +99,10 @@ export default {
     width: 100%;
     padding: 8px;
   }
+  .nuxt-content video {
+    width: 100%;
+    margin: 20px 0px;
+  }
 }
 
 </style>
