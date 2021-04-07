@@ -21,5 +21,10 @@ For this project I led pre-production and production of a panoramic video to be 
 <img src="/projects_images/aguamundi_mapping/img_3.jpg">
 <img src="/projects_images/aguamundi_mapping/img_4.jpg">
 </div>
-
+<div class="imgs">
+    <lazy-video-component
+	source="/projects_images/aguamundi_mapping/video_1.mp4"
+        class="md:w-1/2 object-cover my-10 mx-auto border-gray border shadow-md"
+    ></lazy-video-component>
+</div>
 This installation is still active and has been running without issues since January 2018.
