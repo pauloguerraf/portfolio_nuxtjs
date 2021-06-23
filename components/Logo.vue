@@ -16,33 +16,33 @@ export default {
 </script>
 <style>
 .logo-link{
-  mix-blend-mode: difference;
+  /*mix-blend-mode: difference;*/
 }
 #logo-0{
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #E0FF48;
+  -webkit-text-stroke: 1px #1f00b7;
   -webkit-transition: -webkit-text-fill-color .2s ease-out;
 }
 #logo-txt{
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #E0FF48;
+  -webkit-text-stroke: 1px #1f00b7;
   -webkit-transition: -webkit-text-fill-color .2s ease-out;
   transition: all .3s ease-out;
   writing-mode: vertical-lr;
   text-orientation: sideways;
 }
 #logo-txt:hover, #logo-0:hover{
-  -webkit-text-fill-color: #E0FF48;
-  -webkit-text-stroke: 1px #E0FF48;
+  -webkit-text-fill-color: #1f00b7;
+  -webkit-text-stroke: 1px #1f00b7;
 }
 @media (min-width: 768px) {
   #logo-txt:hover, #logo-0:hover{
-  -webkit-text-fill-color: #E0FF48;
-  -webkit-text-stroke: 1px #E0FF48;
+  -webkit-text-fill-color: #1f00b7;
+  -webkit-text-stroke: 1px #1f00b7;
 }
   #logo-txt, #logo-0{
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #E0FF48;
+    -webkit-text-stroke: 1px #1f00b7;
     transition: all .3s ease-out;
   }
 }
