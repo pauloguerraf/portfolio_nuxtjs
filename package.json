@@ -23,7 +23,7 @@
     "sass-loader": "^10.1.1"
   },
   "devDependencies": {
-    "@nuxtjs/color-mode": "^2.0.3",
+    "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/google-fonts": "^1.2.0",
     "@nuxtjs/tailwindcss": "^3.4.2",
     "eslint-config-prettier": "^8.0.0",
